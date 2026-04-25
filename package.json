@@ -1,0 +1,15 @@
+{
+  "name": "rakuten-travel2",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:pages": "node scripts/build-pages.mjs",
+    "dev": "node scripts/serve.mjs",
+    "update:data": "node scripts/update-data.mjs && node scripts/build-pages.mjs",
+    "check:data": "node scripts/update-data.mjs --check && node scripts/build-pages.mjs --check"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

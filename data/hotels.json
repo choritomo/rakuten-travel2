@@ -1,0 +1,22 @@
+{
+  "updatedAt": "2026-04-25T05:55:00.000Z",
+  "nextRunLabel": "毎日 07:10 JST",
+  "source": { "type": "demo", "label": "サンプルデータ" },
+  "stay": { "checkinDate": "2026-05-02", "checkoutDate": "2026-05-03", "adultNum": 2, "roomNum": 1 },
+  "themes": [
+    { "id": "lastminute", "label": "直前予約" },
+    { "id": "onsen", "label": "温泉・大浴場" },
+    { "id": "family", "label": "子連れ" },
+    { "id": "breakfast", "label": "朝食評価" },
+    { "id": "station", "label": "駅近" },
+    { "id": "budget", "label": "予算控えめ" }
+  ],
+  "hotels": [
+    { "id":"demo-hakone", "name":"箱根湯本 リバーサイド温泉宿", "area":"神奈川 / 箱根", "nearestStation":"箱根湯本", "special":"露天風呂と朝食の評価が高く、週末の短い旅行に使いやすい温泉宿です。", "minCharge":16800, "reviewAverage":4.72, "reviewCount":833, "availabilityCount":7, "available":true, "theme":"onsen", "tags":["lastminute","onsen","bath","breakfast"], "imageUrl":"https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=900&q=80", "rakutenUrl":"https://travel.rakuten.co.jp/", "recommendationScore":126 },
+    { "id":"demo-atami", "name":"熱海 海辺の朝食ホテル", "area":"静岡 / 熱海", "nearestStation":"熱海", "special":"海を望む客室と朝食が魅力。東京方面からの直前旅行記事で紹介しやすい宿候補です。", "minCharge":14200, "reviewAverage":4.55, "reviewCount":1264, "availabilityCount":12, "available":true, "theme":"breakfast", "tags":["lastminute","onsen","breakfast","station"], "imageUrl":"https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=900&q=80", "rakutenUrl":"https://travel.rakuten.co.jp/", "recommendationScore":122 },
+    { "id":"demo-kyoto", "name":"京都駅前 コンパクトホテル", "area":"京都 / 京都駅", "nearestStation":"京都", "special":"京都駅から移動しやすく、観光・出張の両方で紹介しやすいコスパ重視のホテルです。", "minCharge":9800, "reviewAverage":4.38, "reviewCount":1544, "availabilityCount":18, "available":true, "theme":"station", "tags":["station","budget","solo","lastminute","internet"], "imageUrl":"https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=900&q=80", "rakutenUrl":"https://travel.rakuten.co.jp/", "recommendationScore":119 }
+  ],
+  "drafts": [
+    { "id":"demo-draft-onsen", "title":"週末直前でも狙える関東近郊の温泉宿3選", "status":"リサーチ完了", "theme":"onsen", "hotelIds":["demo-hakone","demo-atami"], "updatedAt":"2026-04-25T05:55:00.000Z" }
+  ]
+}

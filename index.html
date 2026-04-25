@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>週末宿みつけ | 楽天トラベル空室リサーチ</title>
+    <meta name="description" content="楽天トラベルの空室・レビュー・料金目安をもとに、直前旅行向けの宿候補を整理します。">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="index.html"><span class="mark">宿</span><span><b>週末宿みつけ</b><small>楽天トラベル空室リサーチ</small></span></a>
+      <nav><a href="themes/onsen.html">温泉</a><a href="themes/family.html">子連れ</a><a href="themes/station.html">駅近</a><a href="docs/OPERATIONS.md">運用</a></nav>
+    </header>
+
+    <main class="shell">
+      <section class="hero">
+        <div>
+          <p class="eyebrow">Rakuten Travel Research</p>
+          <h1>直前予約に強い宿候補を探す</h1>
+          <p>空室候補、レビュー、料金目安を毎日更新し、ブログ下書きにも使える形で整理します。</p>
+        </div>
+        <aside class="notice">PR: 当サイトは楽天トラベルのアフィリエイトプログラムに参加予定です。料金・空室状況は変動します。</aside>
+      </section>
+
+      <section class="filters" aria-label="絞り込み">
+        <input id="query" type="search" placeholder="温泉、朝食、駅近など">
+        <select id="theme"><option value="all">すべて</option></select>
+        <select id="sort"><option value="score">おすすめ順</option><option value="rating">レビュー評価順</option><option value="price">料金が安い順</option></select>
+        <label><input id="available" type="checkbox" checked> 空室ありのみ</label>
+      </section>
+
+      <section class="summary" id="summary"></section>
+
+      <section class="result-head">
+        <div><p class="eyebrow">Search Results</p><h2 id="count">宿候補</h2></div>
+        <button id="draftBtn">この条件で下書き案</button>
+      </section>
+      <section class="cards" id="cards" aria-live="polite"></section>
+
+      <aside class="drafts"><h2>記事下書き</h2><div id="drafts"></div></aside>
+    </main>
+
+    <footer>Powered by Rakuten Web Service. 楽天トラベル公式ページではありません。</footer>
+    <script src="app.js" defer></script>
+  </body>
+</html>

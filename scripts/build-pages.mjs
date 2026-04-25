@@ -1,0 +1,16 @@
+import { mkdir, readFile, writeFile } from "node:fs/promises";
+import path from "node:path";
+const root = path.resolve(".");
+const site = (process.env.PUBLIC_SITE_URL || "").replace(/\/+$/, "");
+const check = process.argv.includes("--check");
+const copy = { all:["直前予約に強い高評価ホテル一覧","楽天トラベルの空室候補、レビュー、料金目安を整理しています。"], lastminute:["直前予約で探しやすい高評価ホテル","週末や連休前の宿候補を確認できます。"], onsen:["温泉・大浴場つきの高評価宿","温泉や大浴場を楽しみたい方向けの宿候補です。"], family:["子連れ旅行で選びやすいホテル","家族旅行で確認したい宿候補です。"], breakfast:["朝食評価で選びやすいホテル","朝食付きプランと相性の良いホテル候補です。"], station:["駅近で使いやすいホテル","観光、出張、一人旅で移動しやすい宿候補です。"], budget:["予算控えめで探しやすいホテル","料金目安を抑えた宿候補です。"] };
+const data = JSON.parse(await readFile(path.join(root,"data/hotels.json"),"utf8"));
+const themes = [{id:"all",label:"すべて"},...(data.themes||[])];
+const out=[];
+for(const t of themes){const hotels=(data.hotels||[]).filter(h=>t.id==="all"||h.theme===t.id||(h.tags||[]).includes(t.id));out.push([`${t.id}.html`, page(t, hotels)]);}
+if(check){console.log(`OK: ${out.length} static theme pages`);process.exit(0)}
+await mkdir(path.join(root,"themes"),{recursive:true});for(const [name,html] of out)await writeFile(path.join(root,"themes",name),html,"utf8");await writeFile(path.join(root,"robots.txt"),`User-agent: *\nAllow: /\n${site?`Sitemap: ${site}/sitemap.xml\n`:""}`,"utf8");if(site)await writeFile(path.join(root,"sitemap.xml"),sitemap(out.map(([n])=>`/themes/${n}`)),"utf8");console.log(`Generated ${out.length} pages`);
+function page(t,hotels){const [title,desc]=copy[t.id]||[`${t.label}のホテル一覧`,`${t.label}の宿候補です。`];return `<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>${esc(title)} | 週末宿みつけ</title><meta name="description" content="${esc(desc)}"><link rel="stylesheet" href="../styles.css"></head><body><header class="topbar"><a class="brand" href="../index.html"><span class="mark">宿</span><span><b>週末宿みつけ</b><small>楽天トラベル空室リサーチ</small></span></a><nav><a href="../index.html">検索ツールへ戻る</a></nav></header><main class="shell"><section class="hero"><div><p class="eyebrow">Theme Page</p><h1>${esc(title)}</h1><p>${esc(desc)}</p></div><aside class="notice">PR: 当サイトは楽天トラベルのアフィリエイトプログラムに参加予定です。料金・空室状況は変動します。</aside></section><section class="cards">${hotels.length?hotels.map(card).join(""):"<div class='empty'>候補がまだありません。</div>"}</section></main><footer>Powered by Rakuten Web Service. 楽天トラベル公式ページではありません。</footer></body></html>`}
+function card(h){return `<article class="hotel"><img src="${esc(h.imageUrl||"../assets/hotel-placeholder.svg")}" alt="${esc(h.name)}"><div><h3>${esc(h.name)}</h3><p class="meta">${esc(h.area||"")}</p><p class="special">${esc(h.special||"")}</p></div><div><div class="price"><small>1泊1室あたり目安</small>${h.minCharge?Number(h.minCharge).toLocaleString("ja-JP")+"円":"確認"}〜</div><a class="btn" href="${esc(h.rakutenUrl||"https://travel.rakuten.co.jp/")}" target="_blank" rel="sponsored noopener">楽天トラベルで見る</a></div></article>`}
+function sitemap(paths){return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n  <url><loc>${site}/</loc></url>\n${paths.map(p=>`  <url><loc>${site}${p}</loc></url>`).join("\n")}\n</urlset>\n`}
+function esc(v){return String(v??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#039;"}[c]));}
