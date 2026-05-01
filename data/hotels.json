@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-04-30T23:08:20.421Z",
+  "updatedAt": "2026-05-01T23:05:51.367Z",
   "nextRunLabel": "毎日 07:10 JST",
   "source": {
     "type": "rakuten",
     "label": "Rakuten Travel API"
   },
   "stay": {
-    "checkinDate": "2026-05-02",
-    "checkoutDate": "2026-05-03",
+    "checkinDate": "2026-05-09",
+    "checkoutDate": "2026-05-10",
     "adultNum": 2,
     "roomNum": 1
   },
@@ -45,7 +45,7 @@
       "status": "リサーチ完了",
       "theme": "onsen",
       "hotelIds": [],
-      "updatedAt": "2026-04-30T23:08:20.422Z"
+      "updatedAt": "2026-05-01T23:05:51.367Z"
     }
   ]
 }
