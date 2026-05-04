@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-03T23:02:08.077Z",
+  "updatedAt": "2026-05-04T23:09:00.774Z",
   "nextRunLabel": "毎日 07:10 JST",
   "source": {
     "type": "rakuten",
@@ -45,7 +45,7 @@
       "status": "リサーチ完了",
       "theme": "onsen",
       "hotelIds": [],
-      "updatedAt": "2026-05-03T23:02:08.077Z"
+      "updatedAt": "2026-05-04T23:09:00.774Z"
     }
   ]
 }
