@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-08T15:53:13.813Z",
+  "updatedAt": "2026-05-08T16:01:33.386Z",
   "nextRunLabel": "毎日 07:10 JST",
   "source": {
     "type": "fallback",
@@ -117,483 +117,483 @@
       "area": "神奈川 / 箱根",
       "mode": "vacant-onsen",
       "checkinDate": "2026-05-10",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "神奈川 / 箱根",
       "mode": "vacant-onsen",
       "checkinDate": "2026-05-11",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "神奈川 / 箱根",
       "mode": "vacant-onsen",
       "checkinDate": "2026-05-12",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "神奈川 / 箱根",
       "mode": "vacant-relaxed",
       "checkinDate": "2026-05-10",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "神奈川 / 箱根",
       "mode": "vacant-relaxed",
       "checkinDate": "2026-05-11",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "神奈川 / 箱根",
       "mode": "vacant-relaxed",
       "checkinDate": "2026-05-12",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "神奈川 / 箱根",
       "mode": "vacant-relaxed",
       "checkinDate": "2026-05-13",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "神奈川 / 箱根",
       "mode": "vacant-relaxed",
       "checkinDate": "2026-05-14",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "神奈川 / 箱根",
       "mode": "vacant-relaxed",
       "checkinDate": "2026-05-15",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "神奈川 / 箱根",
       "mode": "facility-fallback",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "静岡 / 熱海",
       "mode": "vacant-onsen",
       "checkinDate": "2026-05-10",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "静岡 / 熱海",
       "mode": "vacant-onsen",
       "checkinDate": "2026-05-11",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "静岡 / 熱海",
       "mode": "vacant-onsen",
       "checkinDate": "2026-05-12",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "静岡 / 熱海",
       "mode": "vacant-relaxed",
       "checkinDate": "2026-05-10",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "静岡 / 熱海",
       "mode": "vacant-relaxed",
       "checkinDate": "2026-05-11",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "静岡 / 熱海",
       "mode": "vacant-relaxed",
       "checkinDate": "2026-05-12",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "静岡 / 熱海",
       "mode": "vacant-relaxed",
       "checkinDate": "2026-05-13",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "静岡 / 熱海",
       "mode": "vacant-relaxed",
       "checkinDate": "2026-05-14",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "静岡 / 熱海",
       "mode": "vacant-relaxed",
       "checkinDate": "2026-05-15",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "静岡 / 熱海",
       "mode": "facility-fallback",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "群馬 / 草津温泉",
       "mode": "vacant-onsen",
       "checkinDate": "2026-05-10",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "群馬 / 草津温泉",
       "mode": "vacant-onsen",
       "checkinDate": "2026-05-11",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "群馬 / 草津温泉",
       "mode": "vacant-onsen",
       "checkinDate": "2026-05-12",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "群馬 / 草津温泉",
       "mode": "vacant-relaxed",
       "checkinDate": "2026-05-10",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "群馬 / 草津温泉",
       "mode": "vacant-relaxed",
       "checkinDate": "2026-05-11",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "群馬 / 草津温泉",
       "mode": "vacant-relaxed",
       "checkinDate": "2026-05-12",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "群馬 / 草津温泉",
       "mode": "vacant-relaxed",
       "checkinDate": "2026-05-13",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "群馬 / 草津温泉",
       "mode": "vacant-relaxed",
       "checkinDate": "2026-05-14",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "群馬 / 草津温泉",
       "mode": "vacant-relaxed",
       "checkinDate": "2026-05-15",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "群馬 / 草津温泉",
       "mode": "facility-fallback",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "栃木 / 鬼怒川温泉",
       "mode": "vacant-onsen",
       "checkinDate": "2026-05-10",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "栃木 / 鬼怒川温泉",
       "mode": "vacant-onsen",
       "checkinDate": "2026-05-11",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "栃木 / 鬼怒川温泉",
       "mode": "vacant-onsen",
       "checkinDate": "2026-05-12",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "栃木 / 鬼怒川温泉",
       "mode": "vacant-relaxed",
       "checkinDate": "2026-05-10",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "栃木 / 鬼怒川温泉",
       "mode": "vacant-relaxed",
       "checkinDate": "2026-05-11",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "栃木 / 鬼怒川温泉",
       "mode": "vacant-relaxed",
       "checkinDate": "2026-05-12",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "栃木 / 鬼怒川温泉",
       "mode": "vacant-relaxed",
       "checkinDate": "2026-05-13",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "栃木 / 鬼怒川温泉",
       "mode": "vacant-relaxed",
       "checkinDate": "2026-05-14",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "栃木 / 鬼怒川温泉",
       "mode": "vacant-relaxed",
       "checkinDate": "2026-05-15",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "栃木 / 鬼怒川温泉",
       "mode": "facility-fallback",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "千葉 / 舞浜",
       "mode": "vacant-relaxed",
       "checkinDate": "2026-05-10",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "千葉 / 舞浜",
       "mode": "vacant-relaxed",
       "checkinDate": "2026-05-11",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "千葉 / 舞浜",
       "mode": "vacant-relaxed",
       "checkinDate": "2026-05-12",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "千葉 / 舞浜",
       "mode": "vacant-relaxed",
       "checkinDate": "2026-05-13",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "千葉 / 舞浜",
       "mode": "vacant-relaxed",
       "checkinDate": "2026-05-14",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "千葉 / 舞浜",
       "mode": "vacant-relaxed",
       "checkinDate": "2026-05-15",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "千葉 / 舞浜",
       "mode": "facility-fallback",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "神奈川 / 横浜みなとみらい",
       "mode": "vacant-relaxed",
       "checkinDate": "2026-05-10",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "神奈川 / 横浜みなとみらい",
       "mode": "vacant-relaxed",
       "checkinDate": "2026-05-11",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "神奈川 / 横浜みなとみらい",
       "mode": "vacant-relaxed",
       "checkinDate": "2026-05-12",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "神奈川 / 横浜みなとみらい",
       "mode": "vacant-relaxed",
       "checkinDate": "2026-05-13",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "神奈川 / 横浜みなとみらい",
       "mode": "vacant-relaxed",
       "checkinDate": "2026-05-14",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "神奈川 / 横浜みなとみらい",
       "mode": "vacant-relaxed",
       "checkinDate": "2026-05-15",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "神奈川 / 横浜みなとみらい",
       "mode": "facility-fallback",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "京都 / 京都駅",
       "mode": "vacant-relaxed",
       "checkinDate": "2026-05-10",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "京都 / 京都駅",
       "mode": "vacant-relaxed",
       "checkinDate": "2026-05-11",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "京都 / 京都駅",
       "mode": "vacant-relaxed",
       "checkinDate": "2026-05-12",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "京都 / 京都駅",
       "mode": "vacant-relaxed",
       "checkinDate": "2026-05-13",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "京都 / 京都駅",
       "mode": "vacant-relaxed",
       "checkinDate": "2026-05-14",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "京都 / 京都駅",
       "mode": "vacant-relaxed",
       "checkinDate": "2026-05-15",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "京都 / 京都駅",
       "mode": "facility-fallback",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "大阪 / なんば",
       "mode": "vacant-relaxed",
       "checkinDate": "2026-05-10",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "大阪 / なんば",
       "mode": "vacant-relaxed",
       "checkinDate": "2026-05-11",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "大阪 / なんば",
       "mode": "vacant-relaxed",
       "checkinDate": "2026-05-12",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "大阪 / なんば",
       "mode": "vacant-relaxed",
       "checkinDate": "2026-05-13",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "大阪 / なんば",
       "mode": "vacant-relaxed",
       "checkinDate": "2026-05-14",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "大阪 / なんば",
       "mode": "vacant-relaxed",
       "checkinDate": "2026-05-15",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "大阪 / なんば",
       "mode": "facility-fallback",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "福岡 / 博多",
       "mode": "vacant-relaxed",
       "checkinDate": "2026-05-10",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "福岡 / 博多",
       "mode": "vacant-relaxed",
       "checkinDate": "2026-05-11",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "福岡 / 博多",
       "mode": "vacant-relaxed",
       "checkinDate": "2026-05-12",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "福岡 / 博多",
       "mode": "vacant-relaxed",
       "checkinDate": "2026-05-13",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "福岡 / 博多",
       "mode": "vacant-relaxed",
       "checkinDate": "2026-05-14",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "福岡 / 博多",
       "mode": "vacant-relaxed",
       "checkinDate": "2026-05-15",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "福岡 / 博多",
       "mode": "facility-fallback",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "北海道 / 札幌",
       "mode": "vacant-relaxed",
       "checkinDate": "2026-05-10",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "北海道 / 札幌",
       "mode": "vacant-relaxed",
       "checkinDate": "2026-05-11",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "北海道 / 札幌",
       "mode": "vacant-relaxed",
       "checkinDate": "2026-05-12",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "北海道 / 札幌",
       "mode": "vacant-relaxed",
       "checkinDate": "2026-05-13",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "北海道 / 札幌",
       "mode": "vacant-relaxed",
       "checkinDate": "2026-05-14",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "北海道 / 札幌",
       "mode": "vacant-relaxed",
       "checkinDate": "2026-05-15",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     },
     {
       "area": "北海道 / 札幌",
       "mode": "facility-fallback",
-      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
     }
   ],
   "hotels": [
@@ -836,7 +836,7 @@
         "area-search-3",
         "area-search-4"
       ],
-      "updatedAt": "2026-05-08T15:53:13.813Z"
+      "updatedAt": "2026-05-08T16:01:33.386Z"
     },
     {
       "id": "family-breakfast",
@@ -849,7 +849,7 @@
         "area-search-5",
         "area-search-6"
       ],
-      "updatedAt": "2026-05-08T15:53:13.813Z"
+      "updatedAt": "2026-05-08T16:01:33.386Z"
     }
   ]
 }
