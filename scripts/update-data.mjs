@@ -191,11 +191,16 @@ async function rakuten(endpoint, params) {
     if (value !== undefined && value !== null && value !== "") url.searchParams.set(key, value);
   }
 
-  const headers = { "User-Agent": "rakuten-travel2-data-updater" };
-  if (apiReferer) headers.Referer = apiReferer;
+  const headers = { "user-agent": "rakuten-travel2-data-updater" };
+  const options = { headers };
+  if (apiReferer) {
+    headers.referer = apiReferer;
+    headers.origin = new URL(apiReferer).origin;
+    options.referrer = apiReferer;
+  }
 
   try {
-    const response = await fetch(url, { headers });
+    const response = await fetch(url, options);
     const body = await response.text();
     let json;
     try {
