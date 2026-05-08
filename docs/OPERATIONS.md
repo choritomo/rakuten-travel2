@@ -14,6 +14,7 @@
 `.github/workflows/update-rakuten-travel.yml` が毎日 07:10 JST に動きます。
 
 - 楽天トラベル空室検索APIから候補を取得
+- GitHub Pages URLを `Referer` ヘッダーとして送信
 - 複数の日付・条件で再試行
 - 0件エリアは楽天トラベル施設検索APIで補完
 - `data/hotels.json` を更新
@@ -27,8 +28,9 @@
 
 1. Actions の `Update Rakuten Travel data` を開き、最新ログを確認します。
 2. `Updated 0 records` ではなく、`fallback` または `stale` と出ていれば空白回避は動いています。
-3. Secrets の値が空でないか確認します。
-4. 日程が大型連休・満室期の場合は、エリアや日付を追加して再実行します。
+3. `REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING` が出た場合は、`PUBLIC_SITE_URL` と楽天Web Service側のアプリ設定で許可しているURLを確認します。
+4. Secrets の値が空でないか確認します。
+5. 日程が大型連休・満室期の場合は、エリアや日付を追加して再実行します。
 
 ## 公開前チェック
 
