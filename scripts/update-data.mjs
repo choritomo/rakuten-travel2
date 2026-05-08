@@ -7,6 +7,7 @@ const check = process.argv.includes("--check");
 const dataPath = "data/hotels.json";
 const apiBase = "https://openapi.rakuten.co.jp/engine/api";
 const requestDelayMs = 1150;
+const apiReferer = resolveSiteUrl();
 
 const themes = [
   { id: "lastminute", label: "直前予約" },
@@ -75,7 +76,7 @@ if (list.length > 0) {
       note: "空室検索を複数日・複数条件で試し、空室が少ないエリアは施設検索候補で補完しています。料金・空室は楽天トラベル側で最終確認してください。"
     }
   });
-} else if (current?.hotels?.length) {
+} else if (current?.hotels?.length && current.source?.type !== "fallback") {
   nextData = {
     ...current,
     updatedAt: new Date().toISOString(),
@@ -191,8 +192,11 @@ async function rakuten(endpoint, params) {
     if (value !== undefined && value !== null && value !== "") url.searchParams.set(key, value);
   }
 
+  const headers = { "User-Agent": "rakuten-travel2-data-updater" };
+  if (apiReferer) headers.Referer = apiReferer;
+
   try {
-    const response = await fetch(url);
+    const response = await fetch(url, { headers });
     const body = await response.text();
     let json;
     try {
@@ -200,7 +204,7 @@ async function rakuten(endpoint, params) {
     } catch {
       throw new Error(`Invalid JSON response: ${body.slice(0, 120)}`);
     }
-    if (!response.ok) throw new Error(`HTTP ${response.status}: ${json.error_description || body.slice(0, 120)}`);
+    if (!response.ok) throw new Error(`HTTP ${response.status}: ${json.error_description || JSON.stringify(json).slice(0, 160)}`);
     if (json.error) throw new Error(json.error_description || json.error);
     return json;
   } finally {
@@ -442,6 +446,17 @@ function fmt(date) {
 function numberOrNull(value) {
   const number = Number(value);
   return Number.isFinite(number) && number > 0 ? number : null;
+}
+
+function resolveSiteUrl() {
+  const raw = (process.env.PUBLIC_SITE_URL || "").trim().replace(/\/+$/, "");
+  if (raw && !/github\.com\/.+\.git$/i.test(raw)) return raw;
+  const repo = process.env.GITHUB_REPOSITORY;
+  if (repo && repo.includes("/")) {
+    const [owner, name] = repo.split("/");
+    return `https://${owner}.github.io/${name}`;
+  }
+  return "https://choritomo.github.io/rakuten-travel2";
 }
 
 function sleep(ms) {
