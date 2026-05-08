@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-05-08T16:01:33.386Z",
+  "updatedAt": "2026-05-08T16:08:26.894Z",
   "nextRunLabel": "毎日 07:10 JST",
   "source": {
-    "type": "fallback",
-    "label": "検索導線",
-    "note": "Rakuten API returned no hotel candidates. 宿カードは仮の検索導線です。実データ取得後に自動で置き換わります。"
+    "type": "rakuten",
+    "label": "Rakuten Travel API",
+    "note": "空室検索を複数日・複数条件で試し、空室が少ないエリアは施設検索候補で補完しています。料金・空室は楽天トラベル側で最終確認してください。"
   },
   "stay": {
     "checkinDate": "2026-05-10",
@@ -117,668 +117,241 @@
       "area": "神奈川 / 箱根",
       "mode": "vacant-onsen",
       "checkinDate": "2026-05-10",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
-    },
-    {
-      "area": "神奈川 / 箱根",
-      "mode": "vacant-onsen",
-      "checkinDate": "2026-05-11",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
-    },
-    {
-      "area": "神奈川 / 箱根",
-      "mode": "vacant-onsen",
-      "checkinDate": "2026-05-12",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
-    },
-    {
-      "area": "神奈川 / 箱根",
-      "mode": "vacant-relaxed",
-      "checkinDate": "2026-05-10",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
-    },
-    {
-      "area": "神奈川 / 箱根",
-      "mode": "vacant-relaxed",
-      "checkinDate": "2026-05-11",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
-    },
-    {
-      "area": "神奈川 / 箱根",
-      "mode": "vacant-relaxed",
-      "checkinDate": "2026-05-12",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
-    },
-    {
-      "area": "神奈川 / 箱根",
-      "mode": "vacant-relaxed",
-      "checkinDate": "2026-05-13",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
-    },
-    {
-      "area": "神奈川 / 箱根",
-      "mode": "vacant-relaxed",
-      "checkinDate": "2026-05-14",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
-    },
-    {
-      "area": "神奈川 / 箱根",
-      "mode": "vacant-relaxed",
-      "checkinDate": "2026-05-15",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
-    },
-    {
-      "area": "神奈川 / 箱根",
-      "mode": "facility-fallback",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
+      "count": 29
     },
     {
       "area": "静岡 / 熱海",
       "mode": "vacant-onsen",
       "checkinDate": "2026-05-10",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
-    },
-    {
-      "area": "静岡 / 熱海",
-      "mode": "vacant-onsen",
-      "checkinDate": "2026-05-11",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
-    },
-    {
-      "area": "静岡 / 熱海",
-      "mode": "vacant-onsen",
-      "checkinDate": "2026-05-12",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
-    },
-    {
-      "area": "静岡 / 熱海",
-      "mode": "vacant-relaxed",
-      "checkinDate": "2026-05-10",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
-    },
-    {
-      "area": "静岡 / 熱海",
-      "mode": "vacant-relaxed",
-      "checkinDate": "2026-05-11",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
-    },
-    {
-      "area": "静岡 / 熱海",
-      "mode": "vacant-relaxed",
-      "checkinDate": "2026-05-12",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
-    },
-    {
-      "area": "静岡 / 熱海",
-      "mode": "vacant-relaxed",
-      "checkinDate": "2026-05-13",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
-    },
-    {
-      "area": "静岡 / 熱海",
-      "mode": "vacant-relaxed",
-      "checkinDate": "2026-05-14",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
-    },
-    {
-      "area": "静岡 / 熱海",
-      "mode": "vacant-relaxed",
-      "checkinDate": "2026-05-15",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
-    },
-    {
-      "area": "静岡 / 熱海",
-      "mode": "facility-fallback",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
+      "count": 30
     },
     {
       "area": "群馬 / 草津温泉",
       "mode": "vacant-onsen",
       "checkinDate": "2026-05-10",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
-    },
-    {
-      "area": "群馬 / 草津温泉",
-      "mode": "vacant-onsen",
-      "checkinDate": "2026-05-11",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
-    },
-    {
-      "area": "群馬 / 草津温泉",
-      "mode": "vacant-onsen",
-      "checkinDate": "2026-05-12",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
-    },
-    {
-      "area": "群馬 / 草津温泉",
-      "mode": "vacant-relaxed",
-      "checkinDate": "2026-05-10",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
-    },
-    {
-      "area": "群馬 / 草津温泉",
-      "mode": "vacant-relaxed",
-      "checkinDate": "2026-05-11",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
-    },
-    {
-      "area": "群馬 / 草津温泉",
-      "mode": "vacant-relaxed",
-      "checkinDate": "2026-05-12",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
-    },
-    {
-      "area": "群馬 / 草津温泉",
-      "mode": "vacant-relaxed",
-      "checkinDate": "2026-05-13",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
-    },
-    {
-      "area": "群馬 / 草津温泉",
-      "mode": "vacant-relaxed",
-      "checkinDate": "2026-05-14",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
-    },
-    {
-      "area": "群馬 / 草津温泉",
-      "mode": "vacant-relaxed",
-      "checkinDate": "2026-05-15",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
-    },
-    {
-      "area": "群馬 / 草津温泉",
-      "mode": "facility-fallback",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
+      "count": 30
     },
     {
       "area": "栃木 / 鬼怒川温泉",
       "mode": "vacant-onsen",
       "checkinDate": "2026-05-10",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
-    },
-    {
-      "area": "栃木 / 鬼怒川温泉",
-      "mode": "vacant-onsen",
-      "checkinDate": "2026-05-11",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
-    },
-    {
-      "area": "栃木 / 鬼怒川温泉",
-      "mode": "vacant-onsen",
-      "checkinDate": "2026-05-12",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
-    },
-    {
-      "area": "栃木 / 鬼怒川温泉",
-      "mode": "vacant-relaxed",
-      "checkinDate": "2026-05-10",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
-    },
-    {
-      "area": "栃木 / 鬼怒川温泉",
-      "mode": "vacant-relaxed",
-      "checkinDate": "2026-05-11",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
-    },
-    {
-      "area": "栃木 / 鬼怒川温泉",
-      "mode": "vacant-relaxed",
-      "checkinDate": "2026-05-12",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
-    },
-    {
-      "area": "栃木 / 鬼怒川温泉",
-      "mode": "vacant-relaxed",
-      "checkinDate": "2026-05-13",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
-    },
-    {
-      "area": "栃木 / 鬼怒川温泉",
-      "mode": "vacant-relaxed",
-      "checkinDate": "2026-05-14",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
-    },
-    {
-      "area": "栃木 / 鬼怒川温泉",
-      "mode": "vacant-relaxed",
-      "checkinDate": "2026-05-15",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
-    },
-    {
-      "area": "栃木 / 鬼怒川温泉",
-      "mode": "facility-fallback",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
+      "count": 30
     },
     {
       "area": "千葉 / 舞浜",
       "mode": "vacant-relaxed",
       "checkinDate": "2026-05-10",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
-    },
-    {
-      "area": "千葉 / 舞浜",
-      "mode": "vacant-relaxed",
-      "checkinDate": "2026-05-11",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
-    },
-    {
-      "area": "千葉 / 舞浜",
-      "mode": "vacant-relaxed",
-      "checkinDate": "2026-05-12",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
-    },
-    {
-      "area": "千葉 / 舞浜",
-      "mode": "vacant-relaxed",
-      "checkinDate": "2026-05-13",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
-    },
-    {
-      "area": "千葉 / 舞浜",
-      "mode": "vacant-relaxed",
-      "checkinDate": "2026-05-14",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
-    },
-    {
-      "area": "千葉 / 舞浜",
-      "mode": "vacant-relaxed",
-      "checkinDate": "2026-05-15",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
-    },
-    {
-      "area": "千葉 / 舞浜",
-      "mode": "facility-fallback",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
+      "count": 30
     },
     {
       "area": "神奈川 / 横浜みなとみらい",
       "mode": "vacant-relaxed",
       "checkinDate": "2026-05-10",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
-    },
-    {
-      "area": "神奈川 / 横浜みなとみらい",
-      "mode": "vacant-relaxed",
-      "checkinDate": "2026-05-11",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
-    },
-    {
-      "area": "神奈川 / 横浜みなとみらい",
-      "mode": "vacant-relaxed",
-      "checkinDate": "2026-05-12",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
-    },
-    {
-      "area": "神奈川 / 横浜みなとみらい",
-      "mode": "vacant-relaxed",
-      "checkinDate": "2026-05-13",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
-    },
-    {
-      "area": "神奈川 / 横浜みなとみらい",
-      "mode": "vacant-relaxed",
-      "checkinDate": "2026-05-14",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
-    },
-    {
-      "area": "神奈川 / 横浜みなとみらい",
-      "mode": "vacant-relaxed",
-      "checkinDate": "2026-05-15",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
-    },
-    {
-      "area": "神奈川 / 横浜みなとみらい",
-      "mode": "facility-fallback",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
+      "count": 30
     },
     {
       "area": "京都 / 京都駅",
       "mode": "vacant-relaxed",
       "checkinDate": "2026-05-10",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
-    },
-    {
-      "area": "京都 / 京都駅",
-      "mode": "vacant-relaxed",
-      "checkinDate": "2026-05-11",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
-    },
-    {
-      "area": "京都 / 京都駅",
-      "mode": "vacant-relaxed",
-      "checkinDate": "2026-05-12",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
-    },
-    {
-      "area": "京都 / 京都駅",
-      "mode": "vacant-relaxed",
-      "checkinDate": "2026-05-13",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
-    },
-    {
-      "area": "京都 / 京都駅",
-      "mode": "vacant-relaxed",
-      "checkinDate": "2026-05-14",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
-    },
-    {
-      "area": "京都 / 京都駅",
-      "mode": "vacant-relaxed",
-      "checkinDate": "2026-05-15",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
-    },
-    {
-      "area": "京都 / 京都駅",
-      "mode": "facility-fallback",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
+      "count": 30
     },
     {
       "area": "大阪 / なんば",
       "mode": "vacant-relaxed",
       "checkinDate": "2026-05-10",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
-    },
-    {
-      "area": "大阪 / なんば",
-      "mode": "vacant-relaxed",
-      "checkinDate": "2026-05-11",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
-    },
-    {
-      "area": "大阪 / なんば",
-      "mode": "vacant-relaxed",
-      "checkinDate": "2026-05-12",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
-    },
-    {
-      "area": "大阪 / なんば",
-      "mode": "vacant-relaxed",
-      "checkinDate": "2026-05-13",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
-    },
-    {
-      "area": "大阪 / なんば",
-      "mode": "vacant-relaxed",
-      "checkinDate": "2026-05-14",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
-    },
-    {
-      "area": "大阪 / なんば",
-      "mode": "vacant-relaxed",
-      "checkinDate": "2026-05-15",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
-    },
-    {
-      "area": "大阪 / なんば",
-      "mode": "facility-fallback",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
+      "count": 30
     },
     {
       "area": "福岡 / 博多",
       "mode": "vacant-relaxed",
       "checkinDate": "2026-05-10",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
-    },
-    {
-      "area": "福岡 / 博多",
-      "mode": "vacant-relaxed",
-      "checkinDate": "2026-05-11",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
-    },
-    {
-      "area": "福岡 / 博多",
-      "mode": "vacant-relaxed",
-      "checkinDate": "2026-05-12",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
-    },
-    {
-      "area": "福岡 / 博多",
-      "mode": "vacant-relaxed",
-      "checkinDate": "2026-05-13",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
-    },
-    {
-      "area": "福岡 / 博多",
-      "mode": "vacant-relaxed",
-      "checkinDate": "2026-05-14",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
-    },
-    {
-      "area": "福岡 / 博多",
-      "mode": "vacant-relaxed",
-      "checkinDate": "2026-05-15",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
-    },
-    {
-      "area": "福岡 / 博多",
-      "mode": "facility-fallback",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
+      "count": 30
     },
     {
       "area": "北海道 / 札幌",
       "mode": "vacant-relaxed",
       "checkinDate": "2026-05-10",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
-    },
-    {
-      "area": "北海道 / 札幌",
-      "mode": "vacant-relaxed",
-      "checkinDate": "2026-05-11",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
-    },
-    {
-      "area": "北海道 / 札幌",
-      "mode": "vacant-relaxed",
-      "checkinDate": "2026-05-12",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
-    },
-    {
-      "area": "北海道 / 札幌",
-      "mode": "vacant-relaxed",
-      "checkinDate": "2026-05-13",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
-    },
-    {
-      "area": "北海道 / 札幌",
-      "mode": "vacant-relaxed",
-      "checkinDate": "2026-05-14",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
-    },
-    {
-      "area": "北海道 / 札幌",
-      "mode": "vacant-relaxed",
-      "checkinDate": "2026-05-15",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
-    },
-    {
-      "area": "北海道 / 札幌",
-      "mode": "facility-fallback",
-      "error": "HTTP 403: {\"errors\":{\"errorCode\":403,\"errorMessage\":\"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"}}"
+      "count": 30
     }
   ],
   "hotels": [
     {
-      "id": "area-search-1",
-      "name": "神奈川 / 箱根の宿を楽天トラベルで探す",
-      "area": "神奈川 / 箱根",
-      "address": "",
-      "nearestStation": "",
-      "special": "自動取得が0件だった場合の検索導線です。空室・料金・口コミは楽天トラベル側で確認してください。",
-      "minCharge": null,
-      "reviewAverage": 0,
-      "reviewCount": 0,
-      "availabilityCount": 0,
-      "available": false,
-      "sourceKind": "fallback",
-      "theme": "onsen",
+      "id": "177759",
+      "name": "ロイヤルツインホテル京都八条口",
+      "area": "京都 / 京都駅",
+      "address": "京都府 京都市南区東九条室町46-2",
+      "nearestStation": "京都",
+      "special": "＼JR京都駅徒歩2分！露天風呂・サウナ・岩盤浴！シェフが創る朝食ビュッフェ！飲み放題フリードリンク／",
+      "minCharge": 5355,
+      "reviewAverage": 4.64,
+      "reviewCount": 2415,
+      "availabilityCount": 36,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "station",
       "tags": [
-        "lastminute",
+        "station",
+        "budget",
+        "solo",
+        "internet",
         "onsen",
-        "bath"
+        "bath",
+        "breakfast"
       ],
-      "imageUrl": "assets/hotel-placeholder.svg",
-      "rakutenUrl": "https://travel.rakuten.co.jp/",
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/177759/177759.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D177759",
       "checkinDate": "2026-05-10",
       "checkoutDate": "2026-05-11",
       "reasons": [
-        "空室・料金は要確認",
-        "検索導線用の仮カード"
-      ]
-    },
-    {
-      "id": "area-search-2",
-      "name": "静岡 / 熱海の宿を楽天トラベルで探す",
-      "area": "静岡 / 熱海",
-      "address": "",
-      "nearestStation": "",
-      "special": "自動取得が0件だった場合の検索導線です。空室・料金・口コミは楽天トラベル側で確認してください。",
-      "minCharge": null,
-      "reviewAverage": 0,
-      "reviewCount": 0,
-      "availabilityCount": 0,
-      "available": false,
-      "sourceKind": "fallback",
-      "theme": "breakfast",
-      "tags": [
-        "lastminute",
-        "onsen",
-        "breakfast",
-        "station"
+        "空室候補として取得",
+        "レビュー高評価",
+        "温泉・大浴場系キーワードあり",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
       ],
-      "imageUrl": "assets/hotel-placeholder.svg",
-      "rakutenUrl": "https://travel.rakuten.co.jp/",
-      "checkinDate": "2026-05-10",
-      "checkoutDate": "2026-05-11",
-      "reasons": [
-        "空室・料金は要確認",
-        "検索導線用の仮カード"
-      ]
+      "recommendationScore": 191.5
     },
     {
-      "id": "area-search-3",
-      "name": "群馬 / 草津温泉の宿を楽天トラベルで探す",
-      "area": "群馬 / 草津温泉",
-      "address": "",
-      "nearestStation": "",
-      "special": "自動取得が0件だった場合の検索導線です。空室・料金・口コミは楽天トラベル側で確認してください。",
-      "minCharge": null,
-      "reviewAverage": 0,
-      "reviewCount": 0,
-      "availabilityCount": 0,
-      "available": false,
-      "sourceKind": "fallback",
-      "theme": "onsen",
-      "tags": [
-        "lastminute",
-        "onsen",
-        "bath"
-      ],
-      "imageUrl": "assets/hotel-placeholder.svg",
-      "rakutenUrl": "https://travel.rakuten.co.jp/",
-      "checkinDate": "2026-05-10",
-      "checkoutDate": "2026-05-11",
-      "reasons": [
-        "空室・料金は要確認",
-        "検索導線用の仮カード"
-      ]
-    },
-    {
-      "id": "area-search-4",
-      "name": "栃木 / 鬼怒川温泉の宿を楽天トラベルで探す",
-      "area": "栃木 / 鬼怒川温泉",
-      "address": "",
-      "nearestStation": "",
-      "special": "自動取得が0件だった場合の検索導線です。空室・料金・口コミは楽天トラベル側で確認してください。",
-      "minCharge": null,
-      "reviewAverage": 0,
-      "reviewCount": 0,
-      "availabilityCount": 0,
-      "available": false,
-      "sourceKind": "fallback",
-      "theme": "family",
-      "tags": [
-        "lastminute",
-        "onsen",
-        "family"
-      ],
-      "imageUrl": "assets/hotel-placeholder.svg",
-      "rakutenUrl": "https://travel.rakuten.co.jp/",
-      "checkinDate": "2026-05-10",
-      "checkoutDate": "2026-05-11",
-      "reasons": [
-        "空室・料金は要確認",
-        "検索導線用の仮カード"
-      ]
-    },
-    {
-      "id": "area-search-5",
-      "name": "千葉 / 舞浜の宿を楽天トラベルで探す",
+      "id": "19901",
+      "name": "ホテルドリームゲート舞浜（本館／アネックス）",
       "area": "千葉 / 舞浜",
-      "address": "",
-      "nearestStation": "",
-      "special": "自動取得が0件だった場合の検索導線です。空室・料金・口コミは楽天トラベル側で確認してください。",
-      "minCharge": null,
-      "reviewAverage": 0,
-      "reviewCount": 0,
-      "availabilityCount": 0,
-      "available": false,
-      "sourceKind": "fallback",
+      "address": "千葉県 浦安市舞浜26-5",
+      "nearestStation": "舞浜",
+      "special": "ＪＲ舞浜駅に直結したホテル。全室洗い場付きのバスルーム。宿泊者限定コインロッカー・コインランドリーあり",
+      "minCharge": 8680,
+      "reviewAverage": 4.7,
+      "reviewCount": 2379,
+      "availabilityCount": 36,
+      "available": true,
+      "sourceKind": "vacant",
       "theme": "family",
       "tags": [
         "family",
         "breakfast",
-        "station"
+        "station",
+        "budget"
       ],
-      "imageUrl": "assets/hotel-placeholder.svg",
-      "rakutenUrl": "https://travel.rakuten.co.jp/",
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/19901/19901.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D19901",
       "checkinDate": "2026-05-10",
       "checkoutDate": "2026-05-11",
       "reasons": [
-        "空室・料金は要確認",
-        "検索導線用の仮カード"
-      ]
+        "空室候補として取得",
+        "レビュー高評価",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 188.7
     },
     {
-      "id": "area-search-6",
-      "name": "神奈川 / 横浜みなとみらいの宿を楽天トラベルで探す",
+      "id": "2013",
+      "name": "ホテルニューグランド",
       "area": "神奈川 / 横浜みなとみらい",
-      "address": "",
-      "nearestStation": "",
-      "special": "自動取得が0件だった場合の検索導線です。空室・料金・口コミは楽天トラベル側で確認してください。",
-      "minCharge": null,
-      "reviewAverage": 0,
-      "reviewCount": 0,
-      "availabilityCount": 0,
-      "available": false,
-      "sourceKind": "fallback",
+      "address": "神奈川県 横浜市中区山下町10番地",
+      "nearestStation": "石川町",
+      "special": "横浜スタンダードをいまに伝える、欧州の香りと趣。開港当時の横浜の面影を残すクラシックホテル。",
+      "minCharge": 10500,
+      "reviewAverage": 4.68,
+      "reviewCount": 3528,
+      "availabilityCount": 67,
+      "available": true,
+      "sourceKind": "vacant",
       "theme": "station",
       "tags": [
         "station",
         "breakfast",
-        "family"
+        "family",
+        "budget"
       ],
-      "imageUrl": "assets/hotel-placeholder.svg",
-      "rakutenUrl": "https://travel.rakuten.co.jp/",
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/2013/2013.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D2013",
       "checkinDate": "2026-05-10",
       "checkoutDate": "2026-05-11",
       "reasons": [
-        "空室・料金は要確認",
-        "検索導線用の仮カード"
-      ]
+        "空室候補として取得",
+        "レビュー高評価",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 188.2
     },
     {
-      "id": "area-search-7",
-      "name": "京都 / 京都駅の宿を楽天トラベルで探す",
+      "id": "2003",
+      "name": "横浜ベイホテル東急",
+      "area": "神奈川 / 横浜みなとみらい",
+      "address": "神奈川県 横浜市西区みなとみらい2-3-7",
+      "nearestStation": "桜木町",
+      "special": "【みなとみらい駅直結】横浜・みなとみらいの中心♪横浜港を一望できるアーバンリゾート。",
+      "minCharge": 8240,
+      "reviewAverage": 4.66,
+      "reviewCount": 10341,
+      "availabilityCount": 113,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "station",
+      "tags": [
+        "station",
+        "breakfast",
+        "family",
+        "budget"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/2003/2003.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D2003",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "レビュー高評価",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 187.8
+    },
+    {
+      "id": "146107",
+      "name": "アンダの森　大阪天王寺タワー",
+      "area": "大阪 / なんば",
+      "address": "大阪府 大阪市天王寺区悲田院町8-1",
+      "nearestStation": "天王寺",
+      "special": "豊富な無料サービスがオールインクルーシブ！お酒飲み放題、キッズスペースなど宿泊特典がいっぱい！",
+      "minCharge": 8400,
+      "reviewAverage": 4.66,
+      "reviewCount": 2171,
+      "availabilityCount": 74,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "budget",
+      "tags": [
+        "station",
+        "budget",
+        "solo",
+        "family"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/146107/146107.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D146107",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "レビュー高評価",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 187.8
+    },
+    {
+      "id": "171941",
+      "name": "リッチモンドホテルプレミア京都駅前",
       "area": "京都 / 京都駅",
-      "address": "",
-      "nearestStation": "",
-      "special": "自動取得が0件だった場合の検索導線です。空室・料金・口コミは楽天トラベル側で確認してください。",
-      "minCharge": null,
-      "reviewAverage": 0,
-      "reviewCount": 0,
-      "availabilityCount": 0,
-      "available": false,
-      "sourceKind": "fallback",
+      "address": "京都府 京都市下京区北不動堂町565-3",
+      "nearestStation": "京都",
+      "special": "京都駅徒歩5分 　ご宿泊者様限定無料スイーツ&地酒で贅沢な時間♪小学生まで添寝無料！",
+      "minCharge": 5010,
+      "reviewAverage": 4.65,
+      "reviewCount": 2144,
+      "availabilityCount": 38,
+      "available": true,
+      "sourceKind": "vacant",
       "theme": "station",
       "tags": [
         "station",
@@ -786,70 +359,3072 @@
         "solo",
         "internet"
       ],
-      "imageUrl": "assets/hotel-placeholder.svg",
-      "rakutenUrl": "https://travel.rakuten.co.jp/",
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/171941/171941.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D171941",
       "checkinDate": "2026-05-10",
       "checkoutDate": "2026-05-11",
       "reasons": [
-        "空室・料金は要確認",
-        "検索導線用の仮カード"
-      ]
+        "空室候補として取得",
+        "レビュー高評価",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 187.6
     },
     {
-      "id": "area-search-8",
-      "name": "大阪 / なんばの宿を楽天トラベルで探す",
+      "id": "179245",
+      "name": "グランドニッコー東京ベイ　舞浜",
+      "area": "千葉 / 舞浜",
+      "address": "千葉県 浦安市舞浜1-7",
+      "nearestStation": "舞浜",
+      "special": "東京ディズニーリゾート（Ｒ）・オフィシャルホテル。リニューアルフロアへお得に宿泊できるプランを多数ご用意！",
+      "minCharge": 8000,
+      "reviewAverage": 4.61,
+      "reviewCount": 5690,
+      "availabilityCount": 86,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "family",
+      "tags": [
+        "family",
+        "breakfast",
+        "station",
+        "budget"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/179245/179245.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D179245",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "レビュー高評価",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 186.7
+    },
+    {
+      "id": "91",
+      "name": "ホテルニューオータニ大阪",
       "area": "大阪 / なんば",
-      "address": "",
-      "nearestStation": "",
-      "special": "自動取得が0件だった場合の検索導線です。空室・料金・口コミは楽天トラベル側で確認してください。",
-      "minCharge": null,
-      "reviewAverage": 0,
-      "reviewCount": 0,
-      "availabilityCount": 0,
-      "available": false,
-      "sourceKind": "fallback",
+      "address": "大阪府 大阪市中央区城見1-4-1",
+      "nearestStation": "大阪城公園",
+      "special": "大阪城ホールのすぐ目の前！京セラドームへも地下鉄直通16分♪京都、奈良、神戸への観光アクセス良好で★Wi-Fi無料",
+      "minCharge": 9945,
+      "reviewAverage": 4.53,
+      "reviewCount": 4849,
+      "availabilityCount": 64,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "budget",
+      "tags": [
+        "station",
+        "budget",
+        "solo",
+        "onsen",
+        "internet"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/91/91.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D91",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "レビュー高評価",
+        "温泉・大浴場系キーワードあり",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 186.3
+    },
+    {
+      "id": "1369",
+      "name": "京都センチュリーホテル",
+      "area": "京都 / 京都駅",
+      "address": "京都府 京都市下京区東塩小路町680",
+      "nearestStation": "京都",
+      "special": "JR京都駅中央口から徒歩約2分。アクセス好至便！どんなシーンでも変わらぬ快適、寛ぎをご提供いたします。 ",
+      "minCharge": 9225,
+      "reviewAverage": 4.57,
+      "reviewCount": 4692,
+      "availabilityCount": 43,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "station",
+      "tags": [
+        "station",
+        "budget",
+        "solo",
+        "internet"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/1369/1369.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D1369",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "レビュー高評価",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 185.8
+    },
+    {
+      "id": "55347",
+      "name": "ホテルモントレ京都",
+      "area": "京都 / 京都駅",
+      "address": "京都府 京都市中京区烏丸通三条下ル饅頭屋町604",
+      "nearestStation": "烏丸御池",
+      "special": "京都の中心地に位置し観光やビジネスの拠点に最適な英国調ホテル。最上階には無料で利用できるサウナ付天然温泉スパトリニテあり",
+      "minCharge": 7740,
+      "reviewAverage": 4.48,
+      "reviewCount": 4987,
+      "availabilityCount": 20,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "station",
+      "tags": [
+        "station",
+        "budget",
+        "solo",
+        "internet",
+        "onsen"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/55347/55347.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D55347",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "レビュー高評価",
+        "温泉・大浴場系キーワードあり",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 185.2
+    },
+    {
+      "id": "104678",
+      "name": "ニューオータニイン横浜プレミアム",
+      "area": "神奈川 / 横浜みなとみらい",
+      "address": "神奈川県 横浜市中区桜木町1-1-7",
+      "nearestStation": "桜木町",
+      "special": "【全館禁煙、全室Wi-Fi、夜景で選ぶ】部屋に入れば別世界｡『うぁ！キレイ！』と歓声の上がる横浜一の感動夜景をプレゼント",
+      "minCharge": 4900,
+      "reviewAverage": 4.4,
+      "reviewCount": 5109,
+      "availabilityCount": 52,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "station",
+      "tags": [
+        "station",
+        "breakfast",
+        "family",
+        "nonsmoking",
+        "internet",
+        "budget"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/104678/104678.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D104678",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "レビュー高評価",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 184.9
+    },
+    {
+      "id": "1161",
+      "name": "京都東急ホテル",
+      "area": "京都 / 京都駅",
+      "address": "京都府 京都市下京区堀川通五条下ル柿本町580",
+      "nearestStation": "京都",
+      "special": "【全室Wi-Fi無料】ビジネス・レジャーに最適。洗練された設備の中に「雅」の心を生かした落ち着きのある佇まいのホテル。",
+      "minCharge": 4639,
+      "reviewAverage": 4.53,
+      "reviewCount": 3115,
+      "availabilityCount": 93,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "station",
+      "tags": [
+        "station",
+        "budget",
+        "solo",
+        "internet"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/1161/1161.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D1161",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "レビュー高評価",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 184.9
+    },
+    {
+      "id": "80777",
+      "name": "ダイワロイネットホテル横浜公園",
+      "area": "神奈川 / 横浜みなとみらい",
+      "address": "神奈川県 横浜市中区山下町204-1",
+      "nearestStation": "関内",
+      "special": "2024年10月リニューアル！　愛犬ルーム新設★　横浜スタジアム・中華街は徒歩すぐ　みなとみらいも好アクセス",
+      "minCharge": 5270,
+      "reviewAverage": 4.52,
+      "reviewCount": 4479,
+      "availabilityCount": 27,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "station",
+      "tags": [
+        "station",
+        "breakfast",
+        "family",
+        "budget"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/80777/80777.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D80777",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "レビュー高評価",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 184.7
+    },
+    {
+      "id": "724",
+      "name": "京王プラザホテル札幌",
+      "area": "北海道 / 札幌",
+      "address": "北海道 札幌市中央区北5条西7丁目",
+      "nearestStation": "札幌",
+      "special": "札幌駅西口徒歩5分。全室禁煙、Wi-Fi完備。道産食材を使った朝食はブッフェまたは和定食から選べます",
+      "minCharge": 4950,
+      "reviewAverage": 4.44,
+      "reviewCount": 5400,
+      "availabilityCount": 119,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "breakfast",
+      "tags": [
+        "breakfast",
+        "station",
+        "budget",
+        "nonsmoking",
+        "internet"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/724/724.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D724",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "レビュー高評価",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 184.3
+    },
+    {
+      "id": "54127",
+      "name": "舞浜ビューホテル　ｂｙ　ＨＵＬＩＣ（旧：東京ベイ舞浜ホテル）",
+      "area": "千葉 / 舞浜",
+      "address": "千葉県 浦安市舞浜1-34",
+      "nearestStation": "舞浜",
+      "special": "＼アーリーサマーセール最大25％OFF対象／東京ディズニーリゾート（R）オフィシャルホテル★全室洗い場付き広々バスルーム",
+      "minCharge": 7830,
+      "reviewAverage": 4.49,
+      "reviewCount": 11214,
+      "availabilityCount": 24,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "family",
+      "tags": [
+        "family",
+        "breakfast",
+        "station",
+        "budget"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/54127/54127.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D54127",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "レビュー高評価",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 184
+    },
+    {
+      "id": "5081",
+      "name": "箱根湯本温泉　ホテルおくゆもと",
+      "area": "神奈川 / 箱根",
+      "address": "神奈川県 足柄下郡箱根町湯本茶屋211",
+      "nearestStation": "箱根湯本",
+      "special": "【２０２３ゴールドアワード＆日本の宿TOP４７受賞】大自然に囲まれた露天風呂、熱々お料理をホテルおくゆもとでお寛ぎ下さい",
+      "minCharge": 11000,
+      "reviewAverage": 4.42,
+      "reviewCount": 2822,
+      "availabilityCount": 31,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "onsen",
+      "tags": [
+        "lastminute",
+        "onsen",
+        "bath",
+        "station",
+        "budget"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/5081/5081.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D5081",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "レビュー高評価",
+        "温泉・大浴場系キーワードあり",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 183.9
+    },
+    {
+      "id": "7523",
+      "name": "ホテルモントレエーデルホフ札幌",
+      "area": "北海道 / 札幌",
+      "address": "北海道 札幌市中央区北２条西１丁目 1番地",
+      "nearestStation": "札幌",
+      "special": "【札幌駅徒歩約7分】全館Wi-Fi完備！ビジネス・観光に抜群の立地(大通公園徒歩圏内) 天然温泉と朝食ブッフェが大人気",
+      "minCharge": 3500,
+      "reviewAverage": 4.42,
+      "reviewCount": 4673,
+      "availabilityCount": 50,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "breakfast",
+      "tags": [
+        "breakfast",
+        "station",
+        "budget",
+        "onsen",
+        "internet"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/7523/7523.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D7523",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "レビュー高評価",
+        "温泉・大浴場系キーワードあり",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 183.9
+    },
+    {
+      "id": "171996",
+      "name": "アパホテル＆リゾート〈横浜ベイタワー〉",
+      "area": "神奈川 / 横浜みなとみらい",
+      "address": "神奈川県 横浜市中区海岸通5-25-3",
+      "nearestStation": "馬車道",
+      "special": "日本最大級2,311室！横浜・みなとみらいのアーバンリゾートホテル♪みなとみらいや海を見渡せる眺望と大浴場がおすすめ！",
+      "minCharge": 3690,
+      "reviewAverage": 4.35,
+      "reviewCount": 6175,
+      "availabilityCount": 135,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "station",
+      "tags": [
+        "station",
+        "breakfast",
+        "family",
+        "onsen",
+        "bath",
+        "budget"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/171996/171996.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D171996",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "レビュー高評価",
+        "温泉・大浴場系キーワードあり",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 183.8
+    },
+    {
+      "id": "1487",
+      "name": "ホテルグランヴィア京都",
+      "area": "京都 / 京都駅",
+      "address": "京都府 京都市下京区烏丸通塩小路下ル　ＪＲ京都駅中央口",
+      "nearestStation": "京都",
+      "special": "高速インターネットアクセス無料！京都駅直結アクセス便利！！",
+      "minCharge": 8308,
+      "reviewAverage": 4.48,
+      "reviewCount": 4116,
+      "availabilityCount": 68,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "station",
+      "tags": [
+        "station",
+        "budget",
+        "solo",
+        "internet"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/1487/1487.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D1487",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "レビュー高評価",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 183.8
+    },
+    {
+      "id": "2604",
+      "name": "ホテルオークラ福岡",
+      "area": "福岡 / 博多",
+      "address": "福岡県 福岡市博多区下川端町3-2 博多リバレイン",
+      "nearestStation": "中洲川端",
+      "special": "ホテルオークラ福岡のおもてなしで寛ぎのひと時をお過ごし下さい。地下鉄直結の好立地により、ゆとりある時間でご利用頂けます。",
+      "minCharge": 11745,
+      "reviewAverage": 4.54,
+      "reviewCount": 2308,
+      "availabilityCount": 30,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "station",
+      "tags": [
+        "station",
+        "breakfast",
+        "budget"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/2604/2604.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D2604",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "レビュー高評価",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 183.7
+    },
+    {
+      "id": "139991",
+      "name": "ベッセルイン札幌中島公園（すすきの徒歩圏内）",
+      "area": "北海道 / 札幌",
+      "address": "北海道 札幌市中央区南九条西4丁目1-2",
+      "nearestStation": "中島公園",
+      "special": "朝食の美味しいランキング国内4位の海鮮バイキング!中島公園駅から徒歩1分。Wi-Fi全室無料。",
+      "minCharge": 3900,
+      "reviewAverage": 4.58,
+      "reviewCount": 1817,
+      "availabilityCount": 59,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "breakfast",
+      "tags": [
+        "breakfast",
+        "station",
+        "budget",
+        "internet"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/139991/139991.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D139991",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "レビュー高評価",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 183.6
+    },
+    {
+      "id": "5731",
+      "name": "ヨコハマ　グランド　インターコンチネンタル　ホテル　ｂｙ　ＩＨＧ",
+      "area": "神奈川 / 横浜みなとみらい",
+      "address": "神奈川県 横浜市西区みなとみらい1-1-1",
+      "nearestStation": "桜木町",
+      "special": "みなとみらい駅から徒歩約5分。風をはらんだヨットの帆の形が特徴のインターナショナルブランドホテル。",
+      "minCharge": 9700,
+      "reviewAverage": 4.46,
+      "reviewCount": 9253,
+      "availabilityCount": 57,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "station",
+      "tags": [
+        "station",
+        "breakfast",
+        "family",
+        "budget"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/5731/5731.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D5731",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "レビュー高評価",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 183.4
+    },
+    {
+      "id": "130169",
+      "name": "ホテルリソルトリニティ博多",
+      "area": "福岡 / 博多",
+      "address": "福岡県 福岡市博多区中洲4-4-10",
+      "nearestStation": "中洲川端",
+      "special": "【中洲川端駅徒歩1分】展望大浴場のある“くつろぎ”のホテル。天神エリア・キャナルシティも徒歩圏！全客室Ｗｉ-Ｆｉ接続可能",
+      "minCharge": 8550,
+      "reviewAverage": 4.38,
+      "reviewCount": 2497,
+      "availabilityCount": 50,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "station",
+      "tags": [
+        "station",
+        "breakfast",
+        "budget",
+        "onsen",
+        "bath"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/130169/130169.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D130169",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "レビュー高評価",
+        "温泉・大浴場系キーワードあり",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 183
+    },
+    {
+      "id": "1160",
+      "name": "都ホテル京都八条",
+      "area": "京都 / 京都駅",
+      "address": "京都府 京都市南区西九条院町17",
+      "nearestStation": "京都",
+      "special": "ＪＲ京都駅八条口徒歩約２分。様々な旅の拠点にうってつけ。24時間荷物お預かりサービス（無料）客室WiFi完備（無料）",
+      "minCharge": 7000,
+      "reviewAverage": 4.44,
+      "reviewCount": 7421,
+      "availabilityCount": 27,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "station",
+      "tags": [
+        "station",
+        "budget",
+        "solo",
+        "internet"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/1160/1160.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D1160",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "レビュー高評価",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 182.9
+    },
+    {
+      "id": "79254",
+      "name": "ホテル京阪　札幌",
+      "area": "北海道 / 札幌",
+      "address": "北海道 札幌市北区北6条西6丁目1-9",
+      "nearestStation": "札幌",
+      "special": "JR「札幌」駅より徒歩約4分☆全室ReFaシャワーヘッド・ドライヤー完備！宿泊者専用大浴場あり☆湯上りアイスが大好評！",
+      "minCharge": 4850,
+      "reviewAverage": 4.37,
+      "reviewCount": 3467,
+      "availabilityCount": 140,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "breakfast",
+      "tags": [
+        "breakfast",
+        "station",
+        "budget",
+        "onsen",
+        "bath"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/79254/79254.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D79254",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "レビュー高評価",
+        "温泉・大浴場系キーワードあり",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 182.8
+    },
+    {
+      "id": "1428",
+      "name": "ホテルプラム（ＨＯＴＥＬ　ＰＬＵＭＭ）横浜",
+      "area": "神奈川 / 横浜みなとみらい",
+      "address": "神奈川県 横浜市西区北幸2-9-1",
+      "nearestStation": "横浜",
+      "special": "4種類から選べるトレンドな朝食が大人気！「暮らすように泊まる」時間をより充実させる大浴場が５／15新規オープン！",
+      "minCharge": 3500,
+      "reviewAverage": 4.3,
+      "reviewCount": 3657,
+      "availabilityCount": 24,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "station",
+      "tags": [
+        "station",
+        "breakfast",
+        "family",
+        "onsen",
+        "bath",
+        "budget"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/1428/1428.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D1428",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "レビュー高評価",
+        "温泉・大浴場系キーワードあり",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 182.7
+    },
+    {
+      "id": "10888",
+      "name": "リッチモンドホテル札幌大通",
+      "area": "北海道 / 札幌",
+      "address": "北海道 札幌市中央区南二条西4-4-1",
+      "nearestStation": "大通",
+      "special": "★★2024年12月1日リニューアルオープン★★大通・すすきの徒歩3分ビジネス・レジャーに最適★狸小路4丁目直結★",
+      "minCharge": 3350,
+      "reviewAverage": 4.49,
+      "reviewCount": 4699,
+      "availabilityCount": 120,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "breakfast",
+      "tags": [
+        "breakfast",
+        "station",
+        "budget"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/10888/10888.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D10888",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "レビュー高評価",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 182.6
+    },
+    {
+      "id": "1238",
+      "name": "オリエンタルホテル東京ベイ",
+      "area": "千葉 / 舞浜",
+      "address": "千葉県 浦安市美浜1-8-2　※お電話のご連絡はこちら⇒【ホテルコード01】0570-051-153",
+      "nearestStation": "新浦安",
+      "special": "東京ディズニーリゾート(R)・パートナーホテル。パートナーホテル・シャトルも常時運行！館内のローソンも便利。",
+      "minCharge": 4960,
+      "reviewAverage": 4.41,
+      "reviewCount": 10961,
+      "availabilityCount": 89,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "family",
+      "tags": [
+        "family",
+        "breakfast",
+        "station",
+        "budget"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/1238/1238.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D1238",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "レビュー高評価",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 182.3
+    },
+    {
+      "id": "1304",
+      "name": "ホテルオークラ東京ベイ",
+      "area": "千葉 / 舞浜",
+      "address": "千葉県 浦安市舞浜1-8",
+      "nearestStation": "舞浜",
+      "special": "全室44平米以上！モノレールの駅から徒歩約3分♪東京ディズニーリゾート(R)オフィシャルホテル",
+      "minCharge": 8128,
+      "reviewAverage": 4.41,
+      "reviewCount": 10629,
+      "availabilityCount": 48,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "family",
+      "tags": [
+        "family",
+        "breakfast",
+        "station",
+        "budget"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/1304/1304.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D1304",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "レビュー高評価",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 182.3
+    },
+    {
+      "id": "5270",
+      "name": "草津温泉　ホテルヴィレッジ",
+      "area": "群馬 / 草津温泉",
+      "address": "群馬県 吾妻郡草津町大字草津618番地",
+      "nearestStation": "長野原草津口",
+      "special": "【ゴールドアワード2025受賞】豊かな自然の中で森林浴、温水プールや温泉、多彩なアクティビティなど楽しさいっぱい♪",
+      "minCharge": 9900,
+      "reviewAverage": 4.4,
+      "reviewCount": 4642,
+      "availabilityCount": 38,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "onsen",
+      "tags": [
+        "lastminute",
+        "onsen",
+        "bath",
+        "budget"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/5270/5270.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D5270",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "レビュー高評価",
+        "温泉・大浴場系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 182.1
+    },
+    {
+      "id": "19786",
+      "name": "箱根湯本温泉　女性に優しい癒しの宿　ホテルマイユクール祥月",
+      "area": "神奈川 / 箱根",
+      "address": "神奈川県 足柄下郡箱根町湯本468-1",
+      "nearestStation": "箱根湯本",
+      "special": "【12年連続アワード受賞】温泉付き半露天風呂客室も登場☆きめ細やかなサービスと10種の前菜やデザートなど女性に人気の宿♪",
+      "minCharge": 8500,
+      "reviewAverage": 4.58,
+      "reviewCount": 6419,
+      "availabilityCount": 17,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "onsen",
+      "tags": [
+        "lastminute",
+        "onsen",
+        "bath",
+        "station",
+        "budget"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/19786/19786.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D19786",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "レビュー高評価",
+        "温泉・大浴場系キーワードあり",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 182
+    },
+    {
+      "id": "13698",
+      "name": "ホテル・ザ・ルーテル",
+      "area": "大阪 / なんば",
+      "address": "大阪府 大阪市中央区谷町3-1-6",
+      "nearestStation": "谷町四丁目",
+      "special": "大阪メトロ『谷町四丁目駅』より徒歩1分、梅田・なんばエリアまで電車で約10分！お部屋は全室18平米以上！",
+      "minCharge": 3013,
+      "reviewAverage": 4.46,
+      "reviewCount": 5377,
+      "availabilityCount": 44,
+      "available": true,
+      "sourceKind": "vacant",
       "theme": "budget",
       "tags": [
         "station",
         "budget",
         "solo"
       ],
-      "imageUrl": "assets/hotel-placeholder.svg",
-      "rakutenUrl": "https://travel.rakuten.co.jp/",
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/13698/13698.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D13698",
       "checkinDate": "2026-05-10",
       "checkoutDate": "2026-05-11",
       "reasons": [
-        "空室・料金は要確認",
-        "検索導線用の仮カード"
-      ]
+        "空室候補として取得",
+        "レビュー高評価",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 182
+    },
+    {
+      "id": "1167",
+      "name": "ウェスティン都ホテル京都",
+      "area": "京都 / 京都駅",
+      "address": "京都府 京都市東山区粟田口華頂町1",
+      "nearestStation": "蹴上",
+      "special": "【さあ、京のリゾートへ】心地よいという新しいラグジュアリー。天然温泉SPAと美食に癒される上質な京時間◆大人のご褒美旅に",
+      "minCharge": 29095,
+      "reviewAverage": 4.74,
+      "reviewCount": 2865,
+      "availabilityCount": 39,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "station",
+      "tags": [
+        "station",
+        "budget",
+        "solo",
+        "internet",
+        "onsen"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/1167/1167.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D1167",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "レビュー高評価",
+        "温泉・大浴場系キーワードあり",
+        "駅・徒歩アクセス系キーワードあり"
+      ],
+      "recommendationScore": 181.9
+    },
+    {
+      "id": "165714",
+      "name": "リッチモンドホテル横浜駅前",
+      "area": "神奈川 / 横浜みなとみらい",
+      "address": "神奈川県 横浜市神奈川区鶴屋町2-13-7",
+      "nearestStation": "横浜",
+      "special": "バス・トイレ・洗面台が独立（スタンダードのみユニットバス）快適で新しいスタイル。朝食はロイヤルホストモーニングビュッフェ",
+      "minCharge": 4500,
+      "reviewAverage": 4.57,
+      "reviewCount": 1691,
+      "availabilityCount": 30,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "station",
+      "tags": [
+        "station",
+        "breakfast",
+        "family",
+        "budget"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/165714/165714.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D165714",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "レビュー高評価",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 181.7
+    },
+    {
+      "id": "1405",
+      "name": "ヒルトン東京ベイ",
+      "area": "千葉 / 舞浜",
+      "address": "千葉県 浦安市舞浜1-8",
+      "nearestStation": "舞浜",
+      "special": "【ファミリーにおすすめ】最大6名定員★お子様アメニティ★コンビニあり★東京ディズニーリゾート(R)オフィシャルホテル",
+      "minCharge": 7334,
+      "reviewAverage": 4.38,
+      "reviewCount": 13185,
+      "availabilityCount": 56,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "family",
+      "tags": [
+        "family",
+        "breakfast",
+        "station",
+        "budget"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/1405/1405.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D1405",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "レビュー高評価",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 181.6
+    },
+    {
+      "id": "38808",
+      "name": "ホテルモントレ　ラ・スール大阪",
+      "area": "大阪 / なんば",
+      "address": "大阪府 大阪市中央区城見2-2-22",
+      "nearestStation": "京橋（大阪）",
+      "special": "サウナ付き天然温泉無料！ゆったりラウンジ併設の癒しホテル。大阪城ホールへ徒歩5分！大阪城でも約10分",
+      "minCharge": 4675,
+      "reviewAverage": 4.37,
+      "reviewCount": 5958,
+      "availabilityCount": 63,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "budget",
+      "tags": [
+        "station",
+        "budget",
+        "solo",
+        "onsen"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/38808/38808.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D38808",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "レビュー高評価",
+        "温泉・大浴場系キーワードあり",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 181.4
+    },
+    {
+      "id": "1017",
+      "name": "ホテルニューオータニ博多",
+      "area": "福岡 / 博多",
+      "address": "福岡県 福岡市中央区渡辺通1-1-2  　　　　  ",
+      "nearestStation": "博多",
+      "special": "ニューオータニならではのきめ細やかなサービスで、皆様をお迎えします",
+      "minCharge": 8500,
+      "reviewAverage": 4.43,
+      "reviewCount": 3420,
+      "availabilityCount": 39,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "station",
+      "tags": [
+        "station",
+        "breakfast",
+        "budget"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/1017/1017.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D1017",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "レビュー高評価",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 181.3
+    },
+    {
+      "id": "762",
+      "name": "札幌グランドホテル",
+      "area": "北海道 / 札幌",
+      "address": "北海道 札幌市中央区北1条西4丁目",
+      "nearestStation": "札幌",
+      "special": "エグゼクティブフロア＆Grand in Grand宿泊者専用のエグゼクティブラウンジでは多彩なフード＆ドリンクを提供中♪",
+      "minCharge": 5525,
+      "reviewAverage": 4.43,
+      "reviewCount": 6456,
+      "availabilityCount": 445,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "breakfast",
+      "tags": [
+        "breakfast",
+        "station",
+        "budget"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/762/762.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D762",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "レビュー高評価",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 181.3
+    },
+    {
+      "id": "27896",
+      "name": "シェラトン・グランデ・トーキョーベイ・ホテル",
+      "area": "千葉 / 舞浜",
+      "address": "千葉県 浦安市舞浜1-9",
+      "nearestStation": "舞浜",
+      "special": "パークチケット購入権付プランも販売中♪東京ディズニーリゾート（R）オフィシャルホテル・お部屋もゆったり36平米～40平米",
+      "minCharge": 8700,
+      "reviewAverage": 4.36,
+      "reviewCount": 15345,
+      "availabilityCount": 28,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "family",
+      "tags": [
+        "family",
+        "breakfast",
+        "station",
+        "budget"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/27896/27896.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D27896",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "レビュー高評価",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 181.2
+    },
+    {
+      "id": "17680",
+      "name": "リッチモンドホテル横浜馬車道",
+      "area": "神奈川 / 横浜みなとみらい",
+      "address": "神奈川県 横浜市中区住吉町5-59",
+      "nearestStation": "関内",
+      "special": "7/12リニューアルオープン♪新改装ランドリールーム♪新部屋タイプ「セレクトルーム」販売開始！！観光地へも徒歩圏内 ♪",
+      "minCharge": 4275,
+      "reviewAverage": 4.36,
+      "reviewCount": 7711,
+      "availabilityCount": 55,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "station",
+      "tags": [
+        "station",
+        "breakfast",
+        "family",
+        "budget"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/17680/17680.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D17680",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "レビュー高評価",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 181.2
+    },
+    {
+      "id": "172871",
+      "name": "ホテルソビアルなんば大国町",
+      "area": "大阪 / なんば",
+      "address": "大阪府 大阪市浪速区敷津西2-2-5",
+      "nearestStation": "大国町",
+      "special": "＃ブロンズアワード受賞 ＃朝食バイキング ＃朝食が人気 ＃大浴場 ＃駅チカ ＃家族旅行 ＃女子旅 ＃難波 ＃新世界",
+      "minCharge": 3500,
+      "reviewAverage": 4.43,
+      "reviewCount": 1562,
+      "availabilityCount": 36,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "budget",
+      "tags": [
+        "station",
+        "budget",
+        "solo",
+        "onsen",
+        "bath",
+        "breakfast",
+        "family"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/172871/172871.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D172871",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "レビュー高評価",
+        "温泉・大浴場系キーワードあり",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 181.1
+    },
+    {
+      "id": "130693",
+      "name": "都シティ　近鉄京都駅（旧：ホテル近鉄京都駅）",
+      "area": "京都 / 京都駅",
+      "address": "京都府 京都市下京区東塩小路釜殿町1-9",
+      "nearestStation": "京都",
+      "special": "京都駅直結・新幹線・近鉄線改札より徒歩約1分！京都駅ナカの宿泊主体型ホテル♪",
+      "minCharge": 7600,
+      "reviewAverage": 4.35,
+      "reviewCount": 4762,
+      "availabilityCount": 32,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "station",
+      "tags": [
+        "station",
+        "budget",
+        "solo",
+        "internet"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/130693/130693.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D130693",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "レビュー高評価",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 181
+    },
+    {
+      "id": "5903",
+      "name": "ホテルマイステイズプレミア札幌パーク",
+      "area": "北海道 / 札幌",
+      "address": "北海道 札幌市中央区南9条西2",
+      "nearestStation": "中島公園",
+      "special": "【お子様連れ大歓迎】札幌初のウェルカムベビーのお宿認定ホテル！選べる朝食とサウナ付の天然温泉が人気♪",
+      "minCharge": 2646,
+      "reviewAverage": 4.34,
+      "reviewCount": 4845,
+      "availabilityCount": 62,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "breakfast",
+      "tags": [
+        "breakfast",
+        "station",
+        "budget",
+        "onsen"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/5903/5903.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D5903",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "レビュー高評価",
+        "温泉・大浴場系キーワードあり",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 180.7
+    },
+    {
+      "id": "7666",
+      "name": "熱海温泉　秀花園湯の花膳",
+      "area": "静岡 / 熱海",
+      "address": "静岡県 熱海市和田浜南町7-13",
+      "nearestStation": "熱海",
+      "special": "【食事評価が高い宿ランキング全国5位】＼旅館甲子園優勝／5月9日(土)～10日(日)空室有！お得な素泊りも【お部屋食】",
+      "minCharge": 7500,
+      "reviewAverage": 4.64,
+      "reviewCount": 1355,
+      "availabilityCount": 25,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "breakfast",
+      "tags": [
+        "lastminute",
+        "onsen",
+        "breakfast",
+        "station",
+        "budget"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/7666/7666.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D7666",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "レビュー高評価",
+        "温泉・大浴場系キーワードあり",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 180.1
+    },
+    {
+      "id": "18148",
+      "name": "ローズホテル横浜",
+      "area": "神奈川 / 横浜みなとみらい",
+      "address": "神奈川県 横浜市中区山下町77",
+      "nearestStation": "石川町",
+      "special": "中華街に立地で観光に至便な立地！中華料理の老舗重慶飯店を併設し洋食レストランの朝食バイキングも人気！全室26平米以上",
+      "minCharge": 7000,
+      "reviewAverage": 4.31,
+      "reviewCount": 5426,
+      "availabilityCount": 59,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "station",
+      "tags": [
+        "station",
+        "breakfast",
+        "family",
+        "budget"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/18148/18148.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D18148",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "レビュー高評価",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 180.1
+    },
+    {
+      "id": "9598",
+      "name": "草津温泉　草津ナウリゾートホテル",
+      "area": "群馬 / 草津温泉",
+      "address": "群馬県 吾妻郡草津町草津白根750",
+      "nearestStation": "長野原草津口",
+      "special": "湯畑までシャトルバス5分　大満足ビュッフェが人気！　「ベルツの森」に囲まれたリゾートホテルで、ゆったり快適なご滞在を。",
+      "minCharge": 16500,
+      "reviewAverage": 4.42,
+      "reviewCount": 2940,
+      "availabilityCount": 52,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "onsen",
+      "tags": [
+        "lastminute",
+        "onsen",
+        "bath",
+        "breakfast",
+        "station"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/9598/9598.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D9598",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "レビュー高評価",
+        "温泉・大浴場系キーワードあり",
+        "駅・徒歩アクセス系キーワードあり"
+      ],
+      "recommendationScore": 179.9
+    },
+    {
+      "id": "103",
+      "name": "リーガロイヤルホテル大阪ヴィニェット　コレクション　ｂｙ　ＩＨＧ",
+      "area": "大阪 / なんば",
+      "address": "大阪府 大阪市北区中之島5-3-68",
+      "nearestStation": "大阪",
+      "special": "2025年4月リブランドオープン。JR大阪駅より無料送迎＆USJへの予約制無料直行バス運行！",
+      "minCharge": 9267,
+      "reviewAverage": 4.36,
+      "reviewCount": 13775,
+      "availabilityCount": 40,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "budget",
+      "tags": [
+        "station",
+        "budget",
+        "solo"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/103/103.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D103",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "レビュー高評価",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 179.8
+    },
+    {
+      "id": "80472",
+      "name": "ダイワロイネットホテル横浜関内",
+      "area": "神奈川 / 横浜みなとみらい",
+      "address": "神奈川県 横浜市中区羽衣町2-7-4",
+      "nearestStation": "関内",
+      "special": "JR「関内駅」より徒歩約3分の好立地。横浜中華街など人気観光地へもアクセスも至便。ビジネス・レジャーの拠点としておすすめ",
+      "minCharge": 3400,
+      "reviewAverage": 4.29,
+      "reviewCount": 2909,
+      "availabilityCount": 80,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "station",
+      "tags": [
+        "station",
+        "breakfast",
+        "family",
+        "budget"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/80472/80472.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D80472",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 179.6
+    },
+    {
+      "id": "1430",
+      "name": "札幌ビューホテル大通公園",
+      "area": "北海道 / 札幌",
+      "address": "北海道 札幌市中央区大通西8丁目",
+      "nearestStation": "札幌",
+      "special": "3/16～春キャベツや春ゴボウなど旬の野菜を使用した春メニューを提供中◆大通公園の年間イベントが楽しめるプランも販売！",
+      "minCharge": 3840,
+      "reviewAverage": 4.35,
+      "reviewCount": 2341,
+      "availabilityCount": 68,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "breakfast",
+      "tags": [
+        "breakfast",
+        "station",
+        "budget"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/1430/1430.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D1430",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "レビュー高評価",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 179.6
+    },
+    {
+      "id": "104743",
+      "name": "三井ガーデンホテル札幌（２０２６年２月１日リニューアルオープン）",
+      "area": "北海道 / 札幌",
+      "address": "北海道 札幌市中央区北5条西6-18-3",
+      "nearestStation": "札幌",
+      "special": "【２０２６年２月リニューアルオープン】ＪＲ札幌駅南口徒歩約４分！宿泊者専用大浴場やラウンジが好評。",
+      "minCharge": 3190,
+      "reviewAverage": 4.47,
+      "reviewCount": 1566,
+      "availabilityCount": 36,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "breakfast",
+      "tags": [
+        "breakfast",
+        "station",
+        "budget",
+        "onsen",
+        "bath"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/104743/104743.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D104743",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "レビュー高評価",
+        "温泉・大浴場系キーワードあり",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 179.2
+    },
+    {
+      "id": "108",
+      "name": "リーガロイヤルホテル京都",
+      "area": "京都 / 京都駅",
+      "address": "京都府 京都市下京区東堀川通り塩小路下ル松明町１番地",
+      "nearestStation": "京都",
+      "special": "京都駅より徒歩約７分、名神京都南ICから車で１０分",
+      "minCharge": 6130,
+      "reviewAverage": 4.26,
+      "reviewCount": 7000,
+      "availabilityCount": 150,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "station",
+      "tags": [
+        "station",
+        "budget",
+        "solo",
+        "internet"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/108/108.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D108",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 179
+    },
+    {
+      "id": "30888",
+      "name": "箱根湯本温泉　ホテル南風荘",
+      "area": "神奈川 / 箱根",
+      "address": "神奈川県 足柄下郡箱根町湯本茶屋179番地",
+      "nearestStation": "箱根湯本",
+      "special": "花崗岩や青石をふんだんに用いた大浴場や露天風呂で箱根の自然を満喫、旬の味覚を揃えたお料理をお楽しみください。",
+      "minCharge": 9900,
+      "reviewAverage": 4.41,
+      "reviewCount": 1637,
+      "availabilityCount": 31,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "onsen",
+      "tags": [
+        "lastminute",
+        "onsen",
+        "bath",
+        "station",
+        "budget"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/30888/30888.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D30888",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "レビュー高評価",
+        "温泉・大浴場系キーワードあり",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 178.8
+    },
+    {
+      "id": "50747",
+      "name": "天然温泉プレミアホテル―ＣＡＢＩＮ―札幌",
+      "area": "北海道 / 札幌",
+      "address": "北海道 札幌市中央区南5条西7丁目5-2",
+      "nearestStation": "すすきの",
+      "special": "＼2024年6月新客室誕生／夜通し天然温泉×サウナを楽しめるホテル",
+      "minCharge": 2193,
+      "reviewAverage": 4.25,
+      "reviewCount": 2870,
+      "availabilityCount": 137,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "breakfast",
+      "tags": [
+        "breakfast",
+        "station",
+        "budget",
+        "onsen"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/50747/50747.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D50747",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "温泉・大浴場系キーワードあり",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 178.8
+    },
+    {
+      "id": "76887",
+      "name": "ホテルモントレ　グラスミア大阪",
+      "area": "大阪 / なんば",
+      "address": "大阪府 大阪市浪速区湊町1-2-3",
+      "nearestStation": "ＪＲ難波",
+      "special": "JR「難波」駅直結、リムジンバス乗り場OCAT隣接「雨に濡れることなく」ご来館いただけ、ビジネス・レジャーにも便利！",
+      "minCharge": 9860,
+      "reviewAverage": 4.31,
+      "reviewCount": 3692,
+      "availabilityCount": 86,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "budget",
+      "tags": [
+        "station",
+        "budget",
+        "solo"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/76887/76887.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D76887",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "レビュー高評価",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 178.7
+    },
+    {
+      "id": "166081",
+      "name": "ホテル京阪　京都八条口",
+      "area": "京都 / 京都駅",
+      "address": "京都府 京都市南区東九条南山王町5番-1",
+      "nearestStation": "九条（京都）",
+      "special": "旅の疲れを癒す大浴場完備♪ロビーや大浴場、EVにはセキュリティードアがあるので女子旅や一人旅でも安心◆",
+      "minCharge": 4700,
+      "reviewAverage": 4.32,
+      "reviewCount": 1647,
+      "availabilityCount": 39,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "station",
+      "tags": [
+        "station",
+        "budget",
+        "solo",
+        "internet",
+        "onsen",
+        "bath"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/166081/166081.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D166081",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "レビュー高評価",
+        "温泉・大浴場系キーワードあり",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 178.4
+    },
+    {
+      "id": "149439",
+      "name": "絶景掛け流しの宿　熱海月右衛門",
+      "area": "静岡 / 熱海",
+      "address": "静岡県 熱海市西熱海町1-5-16",
+      "nearestStation": "来宮",
+      "special": "6年獲得！楽天ゴールドアワード2024＆日本の宿アワードW受賞★クチコミ件数No.1！新鮮な海の幸で彩る懐石料理をご堪能",
+      "minCharge": 15700,
+      "reviewAverage": 4.41,
+      "reviewCount": 7691,
+      "availabilityCount": 35,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "breakfast",
+      "tags": [
+        "lastminute",
+        "onsen",
+        "breakfast",
+        "station"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/149439/149439.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D149439",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "レビュー高評価",
+        "温泉・大浴場系キーワードあり",
+        "駅・徒歩アクセス系キーワードあり"
+      ],
+      "recommendationScore": 178.3
+    },
+    {
+      "id": "68268",
+      "name": "ホテルルートイン横浜馬車道",
+      "area": "神奈川 / 横浜みなとみらい",
+      "address": "神奈川県 横浜市中区弁天通4-53-1",
+      "nearestStation": "関内",
+      "special": "朝食・人工温泉大浴場・女性限定アメニティ・選べるシャンプー＆コンディショナーセットが人気☆",
+      "minCharge": 4400,
+      "reviewAverage": 4.1,
+      "reviewCount": 5281,
+      "availabilityCount": 95,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "station",
+      "tags": [
+        "station",
+        "breakfast",
+        "family",
+        "onsen",
+        "bath",
+        "budget"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/68268/68268.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D68268",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "温泉・大浴場系キーワードあり",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 178.3
+    },
+    {
+      "id": "29246",
+      "name": "ホテルザグランデ心斎橋なんば",
+      "area": "大阪 / なんば",
+      "address": "大阪府 大阪市中央区東心斎橋1-6-28",
+      "nearestStation": "心斎橋",
+      "special": "【楽天春夏SALE開催中！】ビール＆スイーツ無料のラウンジ付♪全45室雰囲気の異なる心斎橋のデザインホテル",
+      "minCharge": 6600,
+      "reviewAverage": 4.36,
+      "reviewCount": 1882,
+      "availabilityCount": 28,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "budget",
+      "tags": [
+        "station",
+        "budget",
+        "solo"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/29246/29246.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D29246",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "レビュー高評価",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 178.2
+    },
+    {
+      "id": "7251",
+      "name": "ホテルクリオコート博多",
+      "area": "福岡 / 博多",
+      "address": "福岡県 福岡市博多区博多駅中央街5-3",
+      "nearestStation": "博多",
+      "special": "博多駅から徒歩1分で安心・安全！全室21㎡以上で快適！手荷物もお預かりします。Wi-Fi使えます！（全フロア利用可！）",
+      "minCharge": 5530,
+      "reviewAverage": 4.22,
+      "reviewCount": 5928,
+      "availabilityCount": 28,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "station",
+      "tags": [
+        "station",
+        "breakfast",
+        "budget",
+        "internet"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/7251/7251.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D7251",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 178.1
+    },
+    {
+      "id": "19684",
+      "name": "箱根湯本温泉　ホテル　おかだ",
+      "area": "神奈川 / 箱根",
+      "address": "神奈川県 足柄下郡箱根町湯本茶屋191",
+      "nearestStation": "箱根湯本",
+      "special": "■人気温泉旅館ホテル５つ星の宿■自家源泉を持ち、展望大浴場・足湯・湯の里と様々なお風呂を楽める。箱根湯本のリゾートホテル",
+      "minCharge": 10200,
+      "reviewAverage": 4.38,
+      "reviewCount": 1584,
+      "availabilityCount": 60,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "onsen",
+      "tags": [
+        "lastminute",
+        "onsen",
+        "bath",
+        "station",
+        "budget"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/19684/19684.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D19684",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "レビュー高評価",
+        "温泉・大浴場系キーワードあり",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 177.5
+    },
+    {
+      "id": "147709",
+      "name": "博多グリーンホテル１号館",
+      "area": "福岡 / 博多",
+      "address": "福岡県 福岡市博多区博多駅中央街4-4",
+      "nearestStation": "博多",
+      "special": "博多駅徒歩1分でアクセス抜群！１３時イン・１２時アウトのゆったり滞在。◇個別空調◇シモンズベッド◇加湿空気清浄機完備",
+      "minCharge": 8000,
+      "reviewAverage": 4.28,
+      "reviewCount": 1957,
+      "availabilityCount": 48,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "station",
+      "tags": [
+        "station",
+        "breakfast",
+        "budget"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/147709/147709.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D147709",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 177.5
+    },
+    {
+      "id": "167058",
+      "name": "静鉄ホテルプレジオ博多駅前",
+      "area": "福岡 / 博多",
+      "address": "福岡県 福岡市博多区博多駅前4-17-6",
+      "nearestStation": "博多",
+      "special": "デラックスルーム新登場◆シングルルーム全室バス・トイレ別◆JR博多駅より徒歩約６分★免震構造★ロビーの無料コーヒーが好評",
+      "minCharge": 5780,
+      "reviewAverage": 4.32,
+      "reviewCount": 1893,
+      "availabilityCount": 47,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "station",
+      "tags": [
+        "station",
+        "breakfast",
+        "budget"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/167058/167058.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D167058",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "レビュー高評価",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 177.5
+    },
+    {
+      "id": "5242",
+      "name": "横浜桜木町ワシントンホテル",
+      "area": "神奈川 / 横浜みなとみらい",
+      "address": "神奈川県 横浜市中区桜木町1-101-1",
+      "nearestStation": "桜木町",
+      "special": "【桜木町駅徒歩1分】観光・出張・コンサートに！「三崎マグロ・横浜中華」が名物の朝食ビュッフェ＆横浜夜景View客室も人気",
+      "minCharge": 5550,
+      "reviewAverage": 4.19,
+      "reviewCount": 8669,
+      "availabilityCount": 88,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "station",
+      "tags": [
+        "station",
+        "breakfast",
+        "family",
+        "budget"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/5242/5242.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D5242",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 177.4
+    },
+    {
+      "id": "4979",
+      "name": "ホテル京阪　京都グランデ",
+      "area": "京都 / 京都駅",
+      "address": "京都府 京都市南区東九条西山王町31番地",
+      "nearestStation": "京都",
+      "special": "JR京都駅八条東口より徒歩約1分、地下道を通れば直結！雨に濡れずにお越しいただけます♪",
+      "minCharge": 5400,
+      "reviewAverage": 4.18,
+      "reviewCount": 4664,
+      "availabilityCount": 72,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "station",
+      "tags": [
+        "station",
+        "budget",
+        "solo",
+        "internet"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/4979/4979.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D4979",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 177.2
+    },
+    {
+      "id": "16333",
+      "name": "ニューオーサカホテル心斎橋",
+      "area": "大阪 / なんば",
+      "address": "大阪府 大阪市中央区西心斎橋1-10-36",
+      "nearestStation": "心斎橋",
+      "special": "地下鉄心斎橋駅・四ツ橋駅から徒歩３分！各線なんば駅から徒歩圏♪Wi-Fi全室完備　喫煙室あり♪",
+      "minCharge": 3720,
+      "reviewAverage": 4.18,
+      "reviewCount": 2539,
+      "availabilityCount": 31,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "budget",
+      "tags": [
+        "station",
+        "budget",
+        "solo",
+        "internet"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/16333/16333.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D16333",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 177.2
+    },
+    {
+      "id": "50212",
+      "name": "ホテルリゾーピア　熱海",
+      "area": "静岡 / 熱海",
+      "address": "静岡県 熱海市東海岸町13-93",
+      "nearestStation": "熱海",
+      "special": "海は目の前☆全客室と温泉大浴場はオーシャンビュー！海の幸満載のお食事も大好評♪",
+      "minCharge": 4400,
+      "reviewAverage": 4.03,
+      "reviewCount": 2189,
+      "availabilityCount": 59,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "breakfast",
+      "tags": [
+        "lastminute",
+        "onsen",
+        "breakfast",
+        "station",
+        "bath",
+        "budget"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/50212/50212.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D50212",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "温泉・大浴場系キーワードあり",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 176.7
+    },
+    {
+      "id": "1145",
+      "name": "都シティ　大阪天王寺",
+      "area": "大阪 / なんば",
+      "address": "大阪府 大阪市阿倍野区松崎町1-2-8",
+      "nearestStation": "天王寺",
+      "special": "全室有線LAN無料､全室デジタル液晶テレビ、全室加湿機能付空気清浄機を完備。全室ミネラルウォーターお一人様一本無料。",
+      "minCharge": 4950,
+      "reviewAverage": 4.22,
+      "reviewCount": 3323,
+      "availabilityCount": 247,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "budget",
+      "tags": [
+        "station",
+        "budget",
+        "solo"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/1145/1145.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D1145",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 176.7
+    },
+    {
+      "id": "169",
+      "name": "ＡＮＡクラウンプラザホテル札幌　ｂｙ　ＩＨＧ",
+      "area": "北海道 / 札幌",
+      "address": "北海道 札幌市中央区北3条西1丁目 ",
+      "nearestStation": "札幌",
+      "special": "JR札幌駅より徒歩7分、地下鉄さっぽろ駅徒歩1分／レストラン・お土産・コンビニなど充実の館内",
+      "minCharge": 4372,
+      "reviewAverage": 4.22,
+      "reviewCount": 4514,
+      "availabilityCount": 52,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "breakfast",
+      "tags": [
+        "breakfast",
+        "station",
+        "budget"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/169/169.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D169",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 176.7
+    },
+    {
+      "id": "9515",
+      "name": "札幌プリンスホテル",
+      "area": "北海道 / 札幌",
+      "address": "北海道 札幌市中央区南2条西11丁目",
+      "nearestStation": "札幌",
+      "special": "12月14日 1階レストラン「オールデイダイニング グランデュール」リニューアルオープン！",
+      "minCharge": 5175,
+      "reviewAverage": 4.21,
+      "reviewCount": 4526,
+      "availabilityCount": 55,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "breakfast",
+      "tags": [
+        "breakfast",
+        "station",
+        "budget"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/9515/9515.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D9515",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 176.5
+    },
+    {
+      "id": "27929",
+      "name": "東京ベイ舞浜ホテル　ファーストリゾート",
+      "area": "千葉 / 舞浜",
+      "address": "千葉県 浦安市舞浜1-6",
+      "nearestStation": "舞浜",
+      "special": "東京ディズニーリゾート（R）・オフィシャルホテル☆様々な部屋タイプが自慢！",
+      "minCharge": 4950,
+      "reviewAverage": 4.3,
+      "reviewCount": 13336,
+      "availabilityCount": 18,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "family",
+      "tags": [
+        "family",
+        "breakfast",
+        "station",
+        "budget"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/27929/27929.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D27929",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "レビュー高評価",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 176.3
+    },
+    {
+      "id": "38530",
+      "name": "コンフォートホテル横浜関内（２０２６年３月３１日　リニューアル）",
+      "area": "神奈川 / 横浜みなとみらい",
+      "address": "神奈川県 横浜市中区住吉町3-33",
+      "nearestStation": "関内",
+      "special": "日替わりスムージーが人気★無料朝食サービスがイチオシのコスパ最強ホテル◆小学生まで添い寝無料◆関内駅徒歩3分",
+      "minCharge": 3200,
+      "reviewAverage": 4.06,
+      "reviewCount": 10590,
+      "availabilityCount": 24,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "station",
+      "tags": [
+        "station",
+        "breakfast",
+        "family",
+        "onsen",
+        "budget"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/38530/38530.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D38530",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "温泉・大浴場系キーワードあり",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 176
+    },
+    {
+      "id": "849",
+      "name": "グランドメルキュール札幌大通公園",
+      "area": "北海道 / 札幌",
+      "address": "北海道 札幌市中央区北1条西11丁目",
+      "nearestStation": "札幌",
+      "special": "大通公園徒歩約3分で地下駐車場完備｜サッポロクラシック含むドリンクやおつまみを無料で楽しめるラウンジアクセス付",
+      "minCharge": 3012,
+      "reviewAverage": 4.17,
+      "reviewCount": 3031,
+      "availabilityCount": 40,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "breakfast",
+      "tags": [
+        "breakfast",
+        "station",
+        "budget"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/849/849.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D849",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 175.6
+    },
+    {
+      "id": "53714",
+      "name": "ホテルＪＡＬシティ関内　横浜",
+      "area": "神奈川 / 横浜みなとみらい",
+      "address": "神奈川県 横浜市中区山下町72",
+      "nearestStation": "関内",
+      "special": "日本大通り駅より徒歩2分の好立地！ビジネス・観光の拠点に☆スタイリッシュな客室や種類豊富な朝食ブッフェも大人気♪",
+      "minCharge": 4680,
+      "reviewAverage": 4.1,
+      "reviewCount": 3369,
+      "availabilityCount": 37,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "station",
+      "tags": [
+        "station",
+        "breakfast",
+        "family",
+        "budget"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/53714/53714.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D53714",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 175.5
+    },
+    {
+      "id": "143240",
+      "name": "天然温泉　夕霧の湯　ドーミーインＰＲＥＭＩＵＭなんば（ドーミーイン・御宿野乃　ホテルズグループ）",
+      "area": "大阪 / なんば",
+      "address": "大阪府 大阪市中央区島之内2-14-23",
+      "nearestStation": "長堀橋",
+      "special": "日本橋駅6番出口より徒歩5分♪男女別大浴場・サウナ完備！乳酸菌飲料やアイスサービス！",
+      "minCharge": 6425,
+      "reviewAverage": 4.36,
+      "reviewCount": 1427,
+      "availabilityCount": 54,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "budget",
+      "tags": [
+        "station",
+        "budget",
+        "solo",
+        "onsen",
+        "bath"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/143240/143240.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D143240",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "レビュー高評価",
+        "温泉・大浴場系キーワードあり",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 174.9
+    },
+    {
+      "id": "68555",
+      "name": "ホテルマイステイズ京都四条",
+      "area": "京都 / 京都駅",
+      "address": "京都府 京都市下京区四条通油小路東入ル傘鉾町52",
+      "nearestStation": "四条（京都市営）",
+      "special": "烏丸・四条駅より徒歩6分♪　駐車場併設！予約制で安心♪　1階レストランでは京都の「おばんざい」もご提供",
+      "minCharge": 3300,
+      "reviewAverage": 4.06,
+      "reviewCount": 2941,
+      "availabilityCount": 36,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "station",
+      "tags": [
+        "station",
+        "budget",
+        "solo",
+        "internet"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/68555/68555.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D68555",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 174.6
+    },
+    {
+      "id": "163065",
+      "name": "スーパーホテルＰｒｅｍｉｅｒ博多駅・筑紫口天然温泉",
+      "area": "福岡 / 博多",
+      "address": "福岡県 福岡市博多区博多駅南2-1-32",
+      "nearestStation": "博多",
+      "special": "アルコールも楽しめるウェルカムバー（15時～21時）＆夜通し入れる天然温泉でリフレッシュ☆博多駅から徒歩約8分！！",
+      "minCharge": 5050,
+      "reviewAverage": 4.29,
+      "reviewCount": 1621,
+      "availabilityCount": 57,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "station",
+      "tags": [
+        "station",
+        "breakfast",
+        "budget",
+        "onsen"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/163065/163065.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D163065",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "温泉・大浴場系キーワードあり",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 174.6
+    },
+    {
+      "id": "79344",
+      "name": "ダイワロイネットホテル博多祇園",
+      "area": "福岡 / 博多",
+      "address": "福岡県 福岡市博多区祗園町1-24",
+      "nearestStation": "祇園（福岡）",
+      "special": "地下鉄「祇園駅」より徒歩約1分の駅ちかホテル。天神・中洲屋台・キャナルシティへは徒歩圏内。ビジネス・遊びに便利。",
+      "minCharge": 5225,
+      "reviewAverage": 4.12,
+      "reviewCount": 4023,
+      "availabilityCount": 25,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "station",
+      "tags": [
+        "station",
+        "breakfast",
+        "budget"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/79344/79344.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D79344",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 174.5
+    },
+    {
+      "id": "163",
+      "name": "ニューオータニイン札幌",
+      "area": "北海道 / 札幌",
+      "address": "北海道 札幌市中央区北2条西1丁目1-1",
+      "nearestStation": "札幌",
+      "special": "JR札幌駅へ徒歩8分、大通公園へ徒歩5分の好立地です。",
+      "minCharge": 3510,
+      "reviewAverage": 4.12,
+      "reviewCount": 5770,
+      "availabilityCount": 99,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "breakfast",
+      "tags": [
+        "breakfast",
+        "station",
+        "budget"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/163/163.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D163",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 174.5
+    },
+    {
+      "id": "20242",
+      "name": "ホテル　ルミエール葛西",
+      "area": "千葉 / 舞浜",
+      "address": "東京都 江戸川区中葛西5-41-20",
+      "nearestStation": "葛西",
+      "special": "2021年8月全客室リニューアル！全室禁煙。無料朝食付き。葛西駅から徒歩２分、舞浜まで好アクセス！",
+      "minCharge": 4550,
+      "reviewAverage": 4.48,
+      "reviewCount": 4086,
+      "availabilityCount": 14,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "family",
+      "tags": [
+        "family",
+        "breakfast",
+        "station",
+        "nonsmoking",
+        "budget"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/20242/20242.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D20242",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "レビュー高評価",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 174.4
+    },
+    {
+      "id": "178613",
+      "name": "天然温泉　蓮花の湯　御宿　野乃京都七条（ドーミーイン・御宿野乃　ホテルズグループ）",
+      "area": "京都 / 京都駅",
+      "address": "京都府 京都市下京区材木町491番地",
+      "nearestStation": "京都",
+      "special": "全館畳敷き「御宿野乃」がここ京都にも開業。夜通し利用可能のチェーン最大規模天然温泉完備。～和の空間で癒しのひとときを～",
+      "minCharge": 9400,
+      "reviewAverage": 4.43,
+      "reviewCount": 1254,
+      "availabilityCount": 49,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "station",
+      "tags": [
+        "station",
+        "budget",
+        "solo",
+        "internet",
+        "onsen"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/178613/178613.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D178613",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "レビュー高評価",
+        "温泉・大浴場系キーワードあり",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 174.2
+    },
+    {
+      "id": "5417",
+      "name": "ホテルニューアカオ",
+      "area": "静岡 / 熱海",
+      "address": "静岡県 熱海市熱海1993-250",
+      "nearestStation": "熱海",
+      "special": "全350室がオーシャンビュー 海上リゾートで唯一無二の絶景体験を",
+      "minCharge": 14800,
+      "reviewAverage": 4.22,
+      "reviewCount": 2737,
+      "availabilityCount": 113,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "breakfast",
+      "tags": [
+        "lastminute",
+        "onsen",
+        "breakfast",
+        "station"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/5417/5417.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D5417",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "温泉・大浴場系キーワードあり",
+        "駅・徒歩アクセス系キーワードあり"
+      ],
+      "recommendationScore": 174.1
+    },
+    {
+      "id": "8910",
+      "name": "プレジデントホテル博多",
+      "area": "福岡 / 博多",
+      "address": "福岡県 福岡市博多区博多駅前1-23-5",
+      "nearestStation": "博多",
+      "special": "★☆2022年3月【本館】客室リニューアル！★☆／【別館】ANNEXは全室バス・トイレ別で広々30平米♪",
+      "minCharge": 3775,
+      "reviewAverage": 4.07,
+      "reviewCount": 4299,
+      "availabilityCount": 28,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "station",
+      "tags": [
+        "station",
+        "breakfast",
+        "budget"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/8910/8910.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D8910",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 173.4
+    },
+    {
+      "id": "178586",
+      "name": "Ｕｍｅｋｏｊｉ　Ｐｏｔｅｌ　ＫＹＯＴＯ（梅小路ポテル京都）",
+      "area": "京都 / 京都駅",
+      "address": "京都府 京都市下京区観喜寺町15",
+      "nearestStation": "",
+      "special": "ルーフトップテラスや銭湯、生ビールやワインが楽しめるドリンクスペースが人気！",
+      "minCharge": 5278,
+      "reviewAverage": 4.68,
+      "reviewCount": 758,
+      "availabilityCount": 26,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "station",
+      "tags": [
+        "station",
+        "budget",
+        "solo",
+        "internet",
+        "onsen"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/178586/178586.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D178586",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "レビュー高評価",
+        "温泉・大浴場系キーワードあり",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 173.1
+    },
+    {
+      "id": "189139",
+      "name": "京急ＥＸホテルみなとみらい横浜（横浜シンフォステージ内）",
+      "area": "神奈川 / 横浜みなとみらい",
+      "address": "神奈川県 横浜市西区みなとみらい5-1-2　横浜シンフォステージ ウエストタワー 26階",
+      "nearestStation": "みなとみらい",
+      "special": "【2024年6月24日開業】地上130mの“空に浮かぶ寛ぎの空間”。優雅なホテルステイをお楽しみください。",
+      "minCharge": 7000,
+      "reviewAverage": 4.6,
+      "reviewCount": 989,
+      "availabilityCount": 61,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "station",
+      "tags": [
+        "station",
+        "breakfast",
+        "family",
+        "budget"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/189139/189139.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D189139",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "レビュー高評価",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 173
+    },
+    {
+      "id": "50196",
+      "name": "ホテルマイステイズ横浜",
+      "area": "神奈川 / 横浜みなとみらい",
+      "address": "神奈川県 横浜市中区末吉町4-81",
+      "nearestStation": "黄金町",
+      "special": "シングルから4ベッドまで様々なタイプをご用意。横浜・関内まで電車で5分。ビジネスや横浜遊びの拠点に◎",
+      "minCharge": 2100,
+      "reviewAverage": 3.98,
+      "reviewCount": 3838,
+      "availabilityCount": 49,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "station",
+      "tags": [
+        "station",
+        "breakfast",
+        "family",
+        "budget"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/50196/50196.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D50196",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 172.8
+    },
+    {
+      "id": "160670",
+      "name": "変なホテル舞浜　東京ベイ",
+      "area": "千葉 / 舞浜",
+      "address": "千葉県 浦安市富士見5-3-20",
+      "nearestStation": "舞浜",
+      "special": "恐竜がお客様をお出迎え！全室バス・トイレ別！テーマパークまで車で約5分の好立地＆舞浜駅まで無料送迎あり",
+      "minCharge": 4296,
+      "reviewAverage": 4.41,
+      "reviewCount": 1279,
+      "availabilityCount": 32,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "family",
+      "tags": [
+        "family",
+        "breakfast",
+        "station",
+        "budget"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/160670/160670.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D160670",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "レビュー高評価",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 172.7
+    },
+    {
+      "id": "1551",
+      "name": "京都タワーホテル",
+      "area": "京都 / 京都駅",
+      "address": "京都府 京都市下京区烏丸通七条下る東塩小路町721-1",
+      "nearestStation": "京都",
+      "special": "【駅徒歩2分】ホテルの目印はタワー！1～8名の多彩な客室が魅力☆展望室やフードコートなど館内充実☆",
+      "minCharge": 5250,
+      "reviewAverage": 3.97,
+      "reviewCount": 2696,
+      "availabilityCount": 44,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "station",
+      "tags": [
+        "station",
+        "budget",
+        "solo",
+        "internet"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/1551/1551.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D1551",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 172.6
+    },
+    {
+      "id": "153500",
+      "name": "ＪＲイン札幌駅南口",
+      "area": "北海道 / 札幌",
+      "address": "北海道 札幌市中央区北3条西1丁目10番",
+      "nearestStation": "札幌",
+      "special": "★男女別大浴場完備 ■JR札幌駅徒歩7分■地下鉄さっぽろ駅21番出口徒歩2分 ■札幌文化芸術劇場＆カナモトホール徒歩5分",
+      "minCharge": 3600,
+      "reviewAverage": 4.27,
+      "reviewCount": 1383,
+      "availabilityCount": 59,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "breakfast",
+      "tags": [
+        "breakfast",
+        "station",
+        "budget",
+        "onsen",
+        "bath"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/153500/153500.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D153500",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "温泉・大浴場系キーワードあり",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 172.4
+    },
+    {
+      "id": "1408",
+      "name": "京都第一ホテル",
+      "area": "京都 / 京都駅",
+      "address": "京都府 京都市南区東九条下殿田町45                                ",
+      "nearestStation": "京都",
+      "special": "京都駅徒歩約６分◆平面駐車場４５台◆市バス始発の九条車庫前で観光拠点にも最適◆広々とした新館に旅を拡げるブックラウンジ",
+      "minCharge": 3700,
+      "reviewAverage": 4.12,
+      "reviewCount": 5915,
+      "availabilityCount": 18,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "station",
+      "tags": [
+        "station",
+        "budget",
+        "solo",
+        "internet"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/1408/1408.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D1408",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 172.3
+    },
+    {
+      "id": "9669",
+      "name": "箱根湯本温泉　箱根パークス吉野",
+      "area": "神奈川 / 箱根",
+      "address": "神奈川県 足柄下郡箱根町湯本茶屋139-5",
+      "nearestStation": "箱根湯本",
+      "special": "【楽天アワード25】地上20m 美肌の温泉は自社源泉「湯本1号泉」等3本の源泉から。和会席と〈お釜で炊く御飯〉が人気の宿",
+      "minCharge": 7510,
+      "reviewAverage": 4.25,
+      "reviewCount": 1404,
+      "availabilityCount": 53,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "onsen",
+      "tags": [
+        "lastminute",
+        "onsen",
+        "bath",
+        "station",
+        "budget"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/9669/9669.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D9669",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "温泉・大浴場系キーワードあり",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 172.2
+    },
+    {
+      "id": "17837",
+      "name": "草津温泉　喜びの宿　高松",
+      "area": "群馬 / 草津温泉",
+      "address": "群馬県 吾妻郡草津町草津312",
+      "nearestStation": "長野原草津口",
+      "special": "湯畑まで徒歩4分という立地にあり、湯畑源泉の名湯と月替わりのお料理が楽しめます。",
+      "minCharge": 9650,
+      "reviewAverage": 3.88,
+      "reviewCount": 2581,
+      "availabilityCount": 40,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "onsen",
+      "tags": [
+        "lastminute",
+        "onsen",
+        "bath",
+        "station",
+        "budget"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/17837/17837.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D17837",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "温泉・大浴場系キーワードあり",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 172
+    },
+    {
+      "id": "191842",
+      "name": "アパホテル＆リゾート〈大阪なんば駅前タワー〉",
+      "area": "大阪 / なんば",
+      "address": "大阪府 大阪市浪速区湊町1-2-13",
+      "nearestStation": "ＪＲ難波",
+      "special": "【2024年誕生のタワー型アーバンリゾートホテル】都会の夜景と大きなお風呂を心ゆくまで",
+      "minCharge": 4800,
+      "reviewAverage": 4.33,
+      "reviewCount": 1455,
+      "availabilityCount": 104,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "budget",
+      "tags": [
+        "station",
+        "budget",
+        "solo"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/191842/191842.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D191842",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "レビュー高評価",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 171.9
+    },
+    {
+      "id": "176594",
+      "name": "アパホテル＆リゾート〈御堂筋本町駅前タワー〉",
+      "area": "大阪 / なんば",
+      "address": "大阪府 大阪市中央区南本町4丁目2番9号",
+      "nearestStation": "本町",
+      "special": "大阪の中心地、梅田・難波へ電車１本５分で好アクセス! 大浴殿付きタワー型アーバンリゾートホテル",
+      "minCharge": 3780,
+      "reviewAverage": 4.17,
+      "reviewCount": 1720,
+      "availabilityCount": 90,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "budget",
+      "tags": [
+        "station",
+        "budget",
+        "solo"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/176594/176594.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D176594",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 171.9
+    },
+    {
+      "id": "182561",
+      "name": "京急ＥＸホテル札幌",
+      "area": "北海道 / 札幌",
+      "address": "北海道 札幌市北区北6条西4丁目2-6",
+      "nearestStation": "札幌",
+      "special": "札幌駅北口より徒歩1分　新千歳空港から直通40分　駅近ビジネス、観光に最適です！",
+      "minCharge": 4700,
+      "reviewAverage": 4.54,
+      "reviewCount": 1101,
+      "availabilityCount": 58,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "breakfast",
+      "tags": [
+        "breakfast",
+        "station",
+        "budget"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/182561/182561.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D182561",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "レビュー高評価",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 171.8
+    },
+    {
+      "id": "978",
+      "name": "浦安ブライトンホテル東京ベイ",
+      "area": "千葉 / 舞浜",
+      "address": "千葉県 浦安市美浜１丁目９",
+      "nearestStation": "新浦安",
+      "special": "TDRパートナーホテル。パークまで直行シャトルバスで約15分。",
+      "minCharge": 6130,
+      "reviewAverage": 4.58,
+      "reviewCount": 4828,
+      "availabilityCount": 12,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "family",
+      "tags": [
+        "family",
+        "breakfast",
+        "station",
+        "budget"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/978/978.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D978",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "レビュー高評価",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 171.6
+    },
+    {
+      "id": "76849",
+      "name": "マイステイズ新浦安",
+      "area": "千葉 / 舞浜",
+      "address": "千葉県 浦安市明海2-1-4",
+      "nearestStation": "新浦安",
+      "special": "東京駅から電車で20分、大小会議室を備えたホテル。舞浜駅へも電車で4分。レジャー・ビジネスに最適！！",
+      "minCharge": 3900,
+      "reviewAverage": 4.02,
+      "reviewCount": 1842,
+      "availabilityCount": 31,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "family",
+      "tags": [
+        "family",
+        "breakfast",
+        "station",
+        "budget"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/76849/76849.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D76849",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 171.6
+    },
+    {
+      "id": "146123",
+      "name": "ホテルリリーフ札幌すすきの",
+      "area": "北海道 / 札幌",
+      "address": "北海道 札幌市中央区南8条西3-1-4",
+      "nearestStation": "中島公園",
+      "special": "札幌駅から３駅◆蔵書数15000冊以上の漫画コーナー＆フリーラウンジでお客様をお出迎え致します",
+      "minCharge": 1988,
+      "reviewAverage": 4.24,
+      "reviewCount": 1576,
+      "availabilityCount": 24,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "breakfast",
+      "tags": [
+        "breakfast",
+        "station",
+        "budget"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/146123/146123.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D146123",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 171.5
+    },
+    {
+      "id": "8842",
+      "name": "大江戸温泉物語　ホテル鬼怒川御苑",
+      "area": "栃木 / 鬼怒川温泉",
+      "address": "栃木県 日光市藤原1－1",
+      "nearestStation": "鬼怒川温泉",
+      "special": "渓谷美と優しいお湯に癒される、グルメバイキングが自慢の温泉ホテル",
+      "minCharge": 9000,
+      "reviewAverage": 3.79,
+      "reviewCount": 4400,
+      "availabilityCount": 89,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "family",
+      "tags": [
+        "lastminute",
+        "onsen",
+        "family",
+        "breakfast",
+        "station",
+        "budget"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/8842/8842.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D8842",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "温泉・大浴場系キーワードあり",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 171.4
+    },
+    {
+      "id": "167",
+      "name": "ホテル日航大阪",
+      "area": "大阪 / なんば",
+      "address": "大阪府 大阪市中央区西心斎橋1-3-3",
+      "nearestStation": "心斎橋",
+      "special": "大阪メトロ心斎橋駅直結、アクセス抜群★雨でも濡れずに便利！",
+      "minCharge": 6375,
+      "reviewAverage": 4.47,
+      "reviewCount": 5336,
+      "availabilityCount": 14,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "budget",
+      "tags": [
+        "station",
+        "budget",
+        "solo"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/167/167.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D167",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "レビュー高評価",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 171.4
+    },
+    {
+      "id": "165176",
+      "name": "ホテルインターゲート京都　四条新町",
+      "area": "京都 / 京都駅",
+      "address": "京都府 京都市中京区新町通錦小路上る百足屋町387",
+      "nearestStation": "烏丸",
+      "special": "ハッピーアワーからぶぶ漬けバイキングまで『無料ラウンジサービス』付き  | 手足伸ばせる大浴場 完備",
+      "minCharge": 8896,
+      "reviewAverage": 4.45,
+      "reviewCount": 786,
+      "availabilityCount": 94,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "station",
+      "tags": [
+        "station",
+        "budget",
+        "solo",
+        "internet",
+        "onsen",
+        "bath",
+        "breakfast"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/165176/165176.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D165176",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "レビュー高評価",
+        "温泉・大浴場系キーワードあり",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 171.2
     }
   ],
   "drafts": [
     {
       "id": "latest-onsen",
       "title": "週末直前でも狙える温泉・大浴場つき高評価宿3選",
-      "status": "要確認",
+      "status": "リサーチ完了",
       "theme": "onsen",
       "hotelIds": [
-        "area-search-1",
-        "area-search-2",
-        "area-search-3",
-        "area-search-4"
+        "177759",
+        "91",
+        "55347",
+        "5081",
+        "7523"
       ],
-      "updatedAt": "2026-05-08T16:01:33.386Z"
+      "updatedAt": "2026-05-08T16:08:26.894Z"
     },
     {
       "id": "family-breakfast",
       "title": "子連れで使いやすい朝食評価ホテル候補",
-      "status": "要確認",
+      "status": "リサーチ完了",
       "theme": "family",
       "hotelIds": [
-        "area-search-2",
-        "area-search-4",
-        "area-search-5",
-        "area-search-6"
+        "177759",
+        "19901",
+        "2013",
+        "2003",
+        "146107"
       ],
-      "updatedAt": "2026-05-08T16:01:33.386Z"
+      "updatedAt": "2026-05-08T16:08:26.894Z"
     }
   ]
 }
