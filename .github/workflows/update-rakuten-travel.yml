@@ -13,6 +13,10 @@ on:
       - ".github/workflows/update-rakuten-travel.yml"
       - "package.json"
 
+concurrency:
+  group: rakuten-travel-data-${{ github.ref }}
+  cancel-in-progress: true
+
 permissions:
   contents: write
 
