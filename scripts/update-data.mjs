@@ -160,11 +160,10 @@ async function fetchVacantHotels(loc, attempt) {
 
 async function fetchFacilityCandidates(loc) {
   const params = baseParams(loc, {
-    searchPattern: "0",
     responseType: "middle",
     hotelThumbnailSize: "3",
     hits: "20",
-    sort: "reviewAverage",
+    sort: "standard",
     searchRadius: "3"
   });
   const json = await rakuten("Travel/SimpleHotelSearch/20170426", params);
