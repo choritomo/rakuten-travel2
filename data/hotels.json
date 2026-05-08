@@ -1,16 +1,91 @@
 {
-  "updatedAt": "2026-05-07T23:10:16.832Z",
+  "updatedAt": "2026-05-08T15:53:13.813Z",
   "nextRunLabel": "毎日 07:10 JST",
   "source": {
-    "type": "rakuten",
-    "label": "Rakuten Travel API"
+    "type": "fallback",
+    "label": "検索導線",
+    "note": "Rakuten API returned no hotel candidates. 宿カードは仮の検索導線です。実データ取得後に自動で置き換わります。"
   },
   "stay": {
-    "checkinDate": "2026-05-09",
-    "checkoutDate": "2026-05-10",
+    "checkinDate": "2026-05-10",
+    "checkoutDate": "2026-05-11",
     "adultNum": 2,
     "roomNum": 1
   },
+  "stayOptions": [
+    {
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "adultNum": 2,
+      "roomNum": 1
+    },
+    {
+      "checkinDate": "2026-05-11",
+      "checkoutDate": "2026-05-12",
+      "adultNum": 2,
+      "roomNum": 1
+    },
+    {
+      "checkinDate": "2026-05-12",
+      "checkoutDate": "2026-05-13",
+      "adultNum": 2,
+      "roomNum": 1
+    },
+    {
+      "checkinDate": "2026-05-13",
+      "checkoutDate": "2026-05-14",
+      "adultNum": 2,
+      "roomNum": 1
+    },
+    {
+      "checkinDate": "2026-05-14",
+      "checkoutDate": "2026-05-15",
+      "adultNum": 2,
+      "roomNum": 1
+    },
+    {
+      "checkinDate": "2026-05-15",
+      "checkoutDate": "2026-05-16",
+      "adultNum": 2,
+      "roomNum": 1
+    },
+    {
+      "checkinDate": "2026-05-16",
+      "checkoutDate": "2026-05-17",
+      "adultNum": 2,
+      "roomNum": 1
+    },
+    {
+      "checkinDate": "2026-05-19",
+      "checkoutDate": "2026-05-20",
+      "adultNum": 2,
+      "roomNum": 1
+    },
+    {
+      "checkinDate": "2026-05-23",
+      "checkoutDate": "2026-05-24",
+      "adultNum": 2,
+      "roomNum": 1
+    },
+    {
+      "checkinDate": "2026-05-30",
+      "checkoutDate": "2026-05-31",
+      "adultNum": 2,
+      "roomNum": 1
+    },
+    {
+      "checkinDate": "2026-06-06",
+      "checkoutDate": "2026-06-07",
+      "adultNum": 2,
+      "roomNum": 1
+    },
+    {
+      "checkinDate": "2026-06-13",
+      "checkoutDate": "2026-06-14",
+      "adultNum": 2,
+      "roomNum": 1
+    }
+  ],
   "themes": [
     {
       "id": "lastminute",
@@ -37,15 +112,744 @@
       "label": "予算控えめ"
     }
   ],
-  "hotels": [],
+  "fetchSummary": [
+    {
+      "area": "神奈川 / 箱根",
+      "mode": "vacant-onsen",
+      "checkinDate": "2026-05-10",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "神奈川 / 箱根",
+      "mode": "vacant-onsen",
+      "checkinDate": "2026-05-11",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "神奈川 / 箱根",
+      "mode": "vacant-onsen",
+      "checkinDate": "2026-05-12",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "神奈川 / 箱根",
+      "mode": "vacant-relaxed",
+      "checkinDate": "2026-05-10",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "神奈川 / 箱根",
+      "mode": "vacant-relaxed",
+      "checkinDate": "2026-05-11",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "神奈川 / 箱根",
+      "mode": "vacant-relaxed",
+      "checkinDate": "2026-05-12",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "神奈川 / 箱根",
+      "mode": "vacant-relaxed",
+      "checkinDate": "2026-05-13",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "神奈川 / 箱根",
+      "mode": "vacant-relaxed",
+      "checkinDate": "2026-05-14",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "神奈川 / 箱根",
+      "mode": "vacant-relaxed",
+      "checkinDate": "2026-05-15",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "神奈川 / 箱根",
+      "mode": "facility-fallback",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "静岡 / 熱海",
+      "mode": "vacant-onsen",
+      "checkinDate": "2026-05-10",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "静岡 / 熱海",
+      "mode": "vacant-onsen",
+      "checkinDate": "2026-05-11",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "静岡 / 熱海",
+      "mode": "vacant-onsen",
+      "checkinDate": "2026-05-12",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "静岡 / 熱海",
+      "mode": "vacant-relaxed",
+      "checkinDate": "2026-05-10",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "静岡 / 熱海",
+      "mode": "vacant-relaxed",
+      "checkinDate": "2026-05-11",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "静岡 / 熱海",
+      "mode": "vacant-relaxed",
+      "checkinDate": "2026-05-12",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "静岡 / 熱海",
+      "mode": "vacant-relaxed",
+      "checkinDate": "2026-05-13",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "静岡 / 熱海",
+      "mode": "vacant-relaxed",
+      "checkinDate": "2026-05-14",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "静岡 / 熱海",
+      "mode": "vacant-relaxed",
+      "checkinDate": "2026-05-15",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "静岡 / 熱海",
+      "mode": "facility-fallback",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "群馬 / 草津温泉",
+      "mode": "vacant-onsen",
+      "checkinDate": "2026-05-10",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "群馬 / 草津温泉",
+      "mode": "vacant-onsen",
+      "checkinDate": "2026-05-11",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "群馬 / 草津温泉",
+      "mode": "vacant-onsen",
+      "checkinDate": "2026-05-12",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "群馬 / 草津温泉",
+      "mode": "vacant-relaxed",
+      "checkinDate": "2026-05-10",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "群馬 / 草津温泉",
+      "mode": "vacant-relaxed",
+      "checkinDate": "2026-05-11",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "群馬 / 草津温泉",
+      "mode": "vacant-relaxed",
+      "checkinDate": "2026-05-12",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "群馬 / 草津温泉",
+      "mode": "vacant-relaxed",
+      "checkinDate": "2026-05-13",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "群馬 / 草津温泉",
+      "mode": "vacant-relaxed",
+      "checkinDate": "2026-05-14",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "群馬 / 草津温泉",
+      "mode": "vacant-relaxed",
+      "checkinDate": "2026-05-15",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "群馬 / 草津温泉",
+      "mode": "facility-fallback",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "栃木 / 鬼怒川温泉",
+      "mode": "vacant-onsen",
+      "checkinDate": "2026-05-10",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "栃木 / 鬼怒川温泉",
+      "mode": "vacant-onsen",
+      "checkinDate": "2026-05-11",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "栃木 / 鬼怒川温泉",
+      "mode": "vacant-onsen",
+      "checkinDate": "2026-05-12",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "栃木 / 鬼怒川温泉",
+      "mode": "vacant-relaxed",
+      "checkinDate": "2026-05-10",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "栃木 / 鬼怒川温泉",
+      "mode": "vacant-relaxed",
+      "checkinDate": "2026-05-11",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "栃木 / 鬼怒川温泉",
+      "mode": "vacant-relaxed",
+      "checkinDate": "2026-05-12",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "栃木 / 鬼怒川温泉",
+      "mode": "vacant-relaxed",
+      "checkinDate": "2026-05-13",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "栃木 / 鬼怒川温泉",
+      "mode": "vacant-relaxed",
+      "checkinDate": "2026-05-14",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "栃木 / 鬼怒川温泉",
+      "mode": "vacant-relaxed",
+      "checkinDate": "2026-05-15",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "栃木 / 鬼怒川温泉",
+      "mode": "facility-fallback",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "千葉 / 舞浜",
+      "mode": "vacant-relaxed",
+      "checkinDate": "2026-05-10",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "千葉 / 舞浜",
+      "mode": "vacant-relaxed",
+      "checkinDate": "2026-05-11",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "千葉 / 舞浜",
+      "mode": "vacant-relaxed",
+      "checkinDate": "2026-05-12",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "千葉 / 舞浜",
+      "mode": "vacant-relaxed",
+      "checkinDate": "2026-05-13",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "千葉 / 舞浜",
+      "mode": "vacant-relaxed",
+      "checkinDate": "2026-05-14",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "千葉 / 舞浜",
+      "mode": "vacant-relaxed",
+      "checkinDate": "2026-05-15",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "千葉 / 舞浜",
+      "mode": "facility-fallback",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "神奈川 / 横浜みなとみらい",
+      "mode": "vacant-relaxed",
+      "checkinDate": "2026-05-10",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "神奈川 / 横浜みなとみらい",
+      "mode": "vacant-relaxed",
+      "checkinDate": "2026-05-11",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "神奈川 / 横浜みなとみらい",
+      "mode": "vacant-relaxed",
+      "checkinDate": "2026-05-12",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "神奈川 / 横浜みなとみらい",
+      "mode": "vacant-relaxed",
+      "checkinDate": "2026-05-13",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "神奈川 / 横浜みなとみらい",
+      "mode": "vacant-relaxed",
+      "checkinDate": "2026-05-14",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "神奈川 / 横浜みなとみらい",
+      "mode": "vacant-relaxed",
+      "checkinDate": "2026-05-15",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "神奈川 / 横浜みなとみらい",
+      "mode": "facility-fallback",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "京都 / 京都駅",
+      "mode": "vacant-relaxed",
+      "checkinDate": "2026-05-10",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "京都 / 京都駅",
+      "mode": "vacant-relaxed",
+      "checkinDate": "2026-05-11",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "京都 / 京都駅",
+      "mode": "vacant-relaxed",
+      "checkinDate": "2026-05-12",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "京都 / 京都駅",
+      "mode": "vacant-relaxed",
+      "checkinDate": "2026-05-13",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "京都 / 京都駅",
+      "mode": "vacant-relaxed",
+      "checkinDate": "2026-05-14",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "京都 / 京都駅",
+      "mode": "vacant-relaxed",
+      "checkinDate": "2026-05-15",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "京都 / 京都駅",
+      "mode": "facility-fallback",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "大阪 / なんば",
+      "mode": "vacant-relaxed",
+      "checkinDate": "2026-05-10",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "大阪 / なんば",
+      "mode": "vacant-relaxed",
+      "checkinDate": "2026-05-11",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "大阪 / なんば",
+      "mode": "vacant-relaxed",
+      "checkinDate": "2026-05-12",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "大阪 / なんば",
+      "mode": "vacant-relaxed",
+      "checkinDate": "2026-05-13",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "大阪 / なんば",
+      "mode": "vacant-relaxed",
+      "checkinDate": "2026-05-14",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "大阪 / なんば",
+      "mode": "vacant-relaxed",
+      "checkinDate": "2026-05-15",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "大阪 / なんば",
+      "mode": "facility-fallback",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "福岡 / 博多",
+      "mode": "vacant-relaxed",
+      "checkinDate": "2026-05-10",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "福岡 / 博多",
+      "mode": "vacant-relaxed",
+      "checkinDate": "2026-05-11",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "福岡 / 博多",
+      "mode": "vacant-relaxed",
+      "checkinDate": "2026-05-12",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "福岡 / 博多",
+      "mode": "vacant-relaxed",
+      "checkinDate": "2026-05-13",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "福岡 / 博多",
+      "mode": "vacant-relaxed",
+      "checkinDate": "2026-05-14",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "福岡 / 博多",
+      "mode": "vacant-relaxed",
+      "checkinDate": "2026-05-15",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "福岡 / 博多",
+      "mode": "facility-fallback",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "北海道 / 札幌",
+      "mode": "vacant-relaxed",
+      "checkinDate": "2026-05-10",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "北海道 / 札幌",
+      "mode": "vacant-relaxed",
+      "checkinDate": "2026-05-11",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "北海道 / 札幌",
+      "mode": "vacant-relaxed",
+      "checkinDate": "2026-05-12",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "北海道 / 札幌",
+      "mode": "vacant-relaxed",
+      "checkinDate": "2026-05-13",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "北海道 / 札幌",
+      "mode": "vacant-relaxed",
+      "checkinDate": "2026-05-14",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "北海道 / 札幌",
+      "mode": "vacant-relaxed",
+      "checkinDate": "2026-05-15",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    },
+    {
+      "area": "北海道 / 札幌",
+      "mode": "facility-fallback",
+      "error": "HTTP 403: {\n  \"errors\": {\n    \"errorCode\": 403,\n    \"errorMessage\": \"REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING\"\n  }\n}"
+    }
+  ],
+  "hotels": [
+    {
+      "id": "area-search-1",
+      "name": "神奈川 / 箱根の宿を楽天トラベルで探す",
+      "area": "神奈川 / 箱根",
+      "address": "",
+      "nearestStation": "",
+      "special": "自動取得が0件だった場合の検索導線です。空室・料金・口コミは楽天トラベル側で確認してください。",
+      "minCharge": null,
+      "reviewAverage": 0,
+      "reviewCount": 0,
+      "availabilityCount": 0,
+      "available": false,
+      "sourceKind": "fallback",
+      "theme": "onsen",
+      "tags": [
+        "lastminute",
+        "onsen",
+        "bath"
+      ],
+      "imageUrl": "assets/hotel-placeholder.svg",
+      "rakutenUrl": "https://travel.rakuten.co.jp/",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室・料金は要確認",
+        "検索導線用の仮カード"
+      ]
+    },
+    {
+      "id": "area-search-2",
+      "name": "静岡 / 熱海の宿を楽天トラベルで探す",
+      "area": "静岡 / 熱海",
+      "address": "",
+      "nearestStation": "",
+      "special": "自動取得が0件だった場合の検索導線です。空室・料金・口コミは楽天トラベル側で確認してください。",
+      "minCharge": null,
+      "reviewAverage": 0,
+      "reviewCount": 0,
+      "availabilityCount": 0,
+      "available": false,
+      "sourceKind": "fallback",
+      "theme": "breakfast",
+      "tags": [
+        "lastminute",
+        "onsen",
+        "breakfast",
+        "station"
+      ],
+      "imageUrl": "assets/hotel-placeholder.svg",
+      "rakutenUrl": "https://travel.rakuten.co.jp/",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室・料金は要確認",
+        "検索導線用の仮カード"
+      ]
+    },
+    {
+      "id": "area-search-3",
+      "name": "群馬 / 草津温泉の宿を楽天トラベルで探す",
+      "area": "群馬 / 草津温泉",
+      "address": "",
+      "nearestStation": "",
+      "special": "自動取得が0件だった場合の検索導線です。空室・料金・口コミは楽天トラベル側で確認してください。",
+      "minCharge": null,
+      "reviewAverage": 0,
+      "reviewCount": 0,
+      "availabilityCount": 0,
+      "available": false,
+      "sourceKind": "fallback",
+      "theme": "onsen",
+      "tags": [
+        "lastminute",
+        "onsen",
+        "bath"
+      ],
+      "imageUrl": "assets/hotel-placeholder.svg",
+      "rakutenUrl": "https://travel.rakuten.co.jp/",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室・料金は要確認",
+        "検索導線用の仮カード"
+      ]
+    },
+    {
+      "id": "area-search-4",
+      "name": "栃木 / 鬼怒川温泉の宿を楽天トラベルで探す",
+      "area": "栃木 / 鬼怒川温泉",
+      "address": "",
+      "nearestStation": "",
+      "special": "自動取得が0件だった場合の検索導線です。空室・料金・口コミは楽天トラベル側で確認してください。",
+      "minCharge": null,
+      "reviewAverage": 0,
+      "reviewCount": 0,
+      "availabilityCount": 0,
+      "available": false,
+      "sourceKind": "fallback",
+      "theme": "family",
+      "tags": [
+        "lastminute",
+        "onsen",
+        "family"
+      ],
+      "imageUrl": "assets/hotel-placeholder.svg",
+      "rakutenUrl": "https://travel.rakuten.co.jp/",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室・料金は要確認",
+        "検索導線用の仮カード"
+      ]
+    },
+    {
+      "id": "area-search-5",
+      "name": "千葉 / 舞浜の宿を楽天トラベルで探す",
+      "area": "千葉 / 舞浜",
+      "address": "",
+      "nearestStation": "",
+      "special": "自動取得が0件だった場合の検索導線です。空室・料金・口コミは楽天トラベル側で確認してください。",
+      "minCharge": null,
+      "reviewAverage": 0,
+      "reviewCount": 0,
+      "availabilityCount": 0,
+      "available": false,
+      "sourceKind": "fallback",
+      "theme": "family",
+      "tags": [
+        "family",
+        "breakfast",
+        "station"
+      ],
+      "imageUrl": "assets/hotel-placeholder.svg",
+      "rakutenUrl": "https://travel.rakuten.co.jp/",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室・料金は要確認",
+        "検索導線用の仮カード"
+      ]
+    },
+    {
+      "id": "area-search-6",
+      "name": "神奈川 / 横浜みなとみらいの宿を楽天トラベルで探す",
+      "area": "神奈川 / 横浜みなとみらい",
+      "address": "",
+      "nearestStation": "",
+      "special": "自動取得が0件だった場合の検索導線です。空室・料金・口コミは楽天トラベル側で確認してください。",
+      "minCharge": null,
+      "reviewAverage": 0,
+      "reviewCount": 0,
+      "availabilityCount": 0,
+      "available": false,
+      "sourceKind": "fallback",
+      "theme": "station",
+      "tags": [
+        "station",
+        "breakfast",
+        "family"
+      ],
+      "imageUrl": "assets/hotel-placeholder.svg",
+      "rakutenUrl": "https://travel.rakuten.co.jp/",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室・料金は要確認",
+        "検索導線用の仮カード"
+      ]
+    },
+    {
+      "id": "area-search-7",
+      "name": "京都 / 京都駅の宿を楽天トラベルで探す",
+      "area": "京都 / 京都駅",
+      "address": "",
+      "nearestStation": "",
+      "special": "自動取得が0件だった場合の検索導線です。空室・料金・口コミは楽天トラベル側で確認してください。",
+      "minCharge": null,
+      "reviewAverage": 0,
+      "reviewCount": 0,
+      "availabilityCount": 0,
+      "available": false,
+      "sourceKind": "fallback",
+      "theme": "station",
+      "tags": [
+        "station",
+        "budget",
+        "solo",
+        "internet"
+      ],
+      "imageUrl": "assets/hotel-placeholder.svg",
+      "rakutenUrl": "https://travel.rakuten.co.jp/",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室・料金は要確認",
+        "検索導線用の仮カード"
+      ]
+    },
+    {
+      "id": "area-search-8",
+      "name": "大阪 / なんばの宿を楽天トラベルで探す",
+      "area": "大阪 / なんば",
+      "address": "",
+      "nearestStation": "",
+      "special": "自動取得が0件だった場合の検索導線です。空室・料金・口コミは楽天トラベル側で確認してください。",
+      "minCharge": null,
+      "reviewAverage": 0,
+      "reviewCount": 0,
+      "availabilityCount": 0,
+      "available": false,
+      "sourceKind": "fallback",
+      "theme": "budget",
+      "tags": [
+        "station",
+        "budget",
+        "solo"
+      ],
+      "imageUrl": "assets/hotel-placeholder.svg",
+      "rakutenUrl": "https://travel.rakuten.co.jp/",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室・料金は要確認",
+        "検索導線用の仮カード"
+      ]
+    }
+  ],
   "drafts": [
     {
       "id": "latest-onsen",
       "title": "週末直前でも狙える温泉・大浴場つき高評価宿3選",
-      "status": "リサーチ完了",
+      "status": "要確認",
       "theme": "onsen",
-      "hotelIds": [],
-      "updatedAt": "2026-05-07T23:10:16.832Z"
+      "hotelIds": [
+        "area-search-1",
+        "area-search-2",
+        "area-search-3",
+        "area-search-4"
+      ],
+      "updatedAt": "2026-05-08T15:53:13.813Z"
+    },
+    {
+      "id": "family-breakfast",
+      "title": "子連れで使いやすい朝食評価ホテル候補",
+      "status": "要確認",
+      "theme": "family",
+      "hotelIds": [
+        "area-search-2",
+        "area-search-4",
+        "area-search-5",
+        "area-search-6"
+      ],
+      "updatedAt": "2026-05-08T15:53:13.813Z"
     }
   ]
 }
