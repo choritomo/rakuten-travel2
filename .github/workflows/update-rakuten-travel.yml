@@ -38,5 +38,6 @@ jobs:
           git add data/hotels.json drafts themes robots.txt sitemap.xml 2>/dev/null || true
           if ! git diff --staged --quiet; then
             git commit -m "chore: update rakuten travel data"
+            git pull --rebase origin main
             git push
           fi
