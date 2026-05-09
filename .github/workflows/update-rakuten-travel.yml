@@ -22,6 +22,9 @@ permissions:
   pages: write
   id-token: write
 
+env:
+  PUBLIC_SITE_URL: https://choritomo.github.io/rakuten-travel2
+
 jobs:
   update:
     environment:
@@ -39,7 +42,6 @@ jobs:
           RAKUTEN_APPLICATION_ID: ${{ secrets.RAKUTEN_APPLICATION_ID }}
           RAKUTEN_ACCESS_KEY: ${{ secrets.RAKUTEN_ACCESS_KEY }}
           RAKUTEN_AFFILIATE_ID: ${{ secrets.RAKUTEN_AFFILIATE_ID }}
-          PUBLIC_SITE_URL: ${{ vars.PUBLIC_SITE_URL }}
       - name: Commit generated files
         run: |
           git config user.name "github-actions[bot]"
