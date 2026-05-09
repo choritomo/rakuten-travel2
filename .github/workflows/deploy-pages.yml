@@ -14,6 +14,9 @@ concurrency:
   group: pages
   cancel-in-progress: true
 
+env:
+  PUBLIC_SITE_URL: https://choritomo.github.io/rakuten-travel2
+
 jobs:
   deploy:
     environment:
@@ -26,8 +29,6 @@ jobs:
         with:
           node-version: "22"
       - run: npm run build:pages
-        env:
-          PUBLIC_SITE_URL: ${{ vars.PUBLIC_SITE_URL }}
       - uses: actions/configure-pages@v5
         with:
           enablement: true
