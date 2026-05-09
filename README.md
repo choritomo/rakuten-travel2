@@ -12,7 +12,7 @@ npm run dev
 
 `http://localhost:4173` を開きます。
 
-## GitHub Secrets / Variables
+## GitHub Secrets
 
 `Settings > Secrets and variables > Actions` に登録します。
 
@@ -22,16 +22,12 @@ Secrets:
 - `RAKUTEN_ACCESS_KEY`
 - `RAKUTEN_AFFILIATE_ID`
 
-Variables:
-
-- `PUBLIC_SITE_URL` = `https://choritomo.github.io/rakuten-travel2`
-
-`PUBLIC_SITE_URL` に GitHub リポジトリURLや `.git` URL は入れません。サイトマップやcanonical URLが崩れるため、公開ページのURLを入れます。
+公開URLはワークフロー内で `https://choritomo.github.io/rakuten-travel2` に固定しています。`PUBLIC_SITE_URL` 変数が古い値で残っていても、現在のActionsでは使いません。
 
 ## 自動化
 
-- `Update Rakuten Travel data`: 楽天APIからデータを更新し、固定ページを生成します。
-- `Deploy static site to GitHub Pages`: GitHub Pagesへ公開します。
+- `Update Rakuten Travel data`: 楽天APIからデータを更新し、固定ページを生成し、そのままGitHub Pagesへ公開します。
+- `Deploy static site to GitHub Pages`: UIやドキュメント変更をGitHub Pagesへ公開します。
 
 データ更新は毎日 07:10 JST に動きます。さらに、取得ロジックを変更したときは `push` でも動くようにしてあります。
 
