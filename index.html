@@ -3,72 +3,77 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>週末宿作戦室 | 楽天トラベル空室リサーチ</title>
-    <meta name="description" content="楽天トラベルの空室・レビュー・料金目安をもとに、週末旅行の狙い目宿、目的別ショートリスト、記事下書き案を毎朝整理します。">
+    <title>楽天トラベルで今週末の宿を探す | 週末宿さがし</title>
+    <meta name="description" content="楽天トラベルAPIの宿泊データをもとに、空室候補・料金目安・レビュー・アクセスを毎朝整理。温泉、駅近、子連れ、朝食など目的別に宿を探せます。">
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <header class="topbar">
-      <a class="brand" href="index.html"><span class="mark">宿</span><span><b>週末宿作戦室</b><small>楽天トラベル空室リサーチ</small></span></a>
-      <nav><a href="#shortlist">狙い目</a><a href="#journeyBoard">旅タイプ</a><a href="#draftArea">記事ネタ</a><a href="docs/OPERATIONS.md">運用</a></nav>
+      <a class="brand" href="index.html"><span class="mark">宿</span><span><b>週末宿さがし</b><small>楽天トラベル掲載宿からピックアップ</small></span></a>
+      <nav><a href="#searchPanel">条件で探す</a><a href="#purposePanel">目的別</a><a href="#compare">3宿比較</a><a href="#results">宿一覧</a></nav>
     </header>
 
     <main class="shell">
       <section class="hero">
         <div class="hero-copy">
-          <p class="eyebrow">Morning Travel Brief</p>
-          <h1>検索する前に、今週末の「行けそうな宿」を絞る</h1>
-          <p>楽天トラベルの空室候補、レビュー、料金目安を毎朝まとめて、温泉・子連れ・駅近コスパの旅ネタに編集します。</p>
+          <h1>楽天トラベルで、今週末の狙い目宿を探す</h1>
+          <p>楽天トラベルAPIの宿泊データをもとに、空室候補・料金目安・レビュー・アクセスを毎朝整理。温泉、駅近、子連れ、朝食など目的別に比較できます。</p>
           <div class="hero-actions">
-            <a class="btn" href="#shortlist">今日の狙い目を見る</a>
-            <button class="ghost-btn" id="draftBtn">記事ネタを作る</button>
+            <a class="btn" href="#results">今週末の狙い目宿を見る</a>
+            <button class="ghost-btn" type="button" data-quick-theme="onsen">温泉宿を探す</button>
+            <button class="ghost-btn" type="button" data-quick-theme="station-value">駅近コスパ宿を探す</button>
           </div>
-          <p class="disclosure">PR: 当サイトは楽天トラベルのアフィリエイトプログラムに参加予定です。料金・空室状況は変動します。</p>
+          <p class="disclosure">楽天トラベルAPI取得データをもとに整理しています。予約前に必ず楽天トラベル公式ページで最新料金・空室・プラン内容をご確認ください。</p>
         </div>
         <aside class="hero-pick" id="heroInsight" aria-live="polite"></aside>
       </section>
 
+      <section class="status-strip" id="statusStrip"></section>
       <section class="summary" id="summary"></section>
 
-      <section class="panel" id="journeyBoard">
+      <section class="panel" id="purposePanel">
         <div class="section-head">
           <div>
-            <p class="eyebrow">Trip Angles</p>
-            <h2>今日の旅タイプ</h2>
+            <p class="section-label">目的別に探す</p>
+            <h2>楽天トラベル掲載宿を旅の目的で絞り込み</h2>
           </div>
           <span id="updatedAt" class="subtle"></span>
         </div>
         <div class="journeys" id="journeys"></div>
       </section>
 
-      <section class="panel" id="shortlist">
+      <section class="panel search-panel" id="searchPanel">
         <div class="section-head">
           <div>
-            <p class="eyebrow">Shortlist</p>
-            <h2>まず見る3つの切り口</h2>
+            <p class="section-label">条件で探す</p>
+            <h2>現在のデータで絞り込む</h2>
           </div>
         </div>
-        <div class="spotlights" id="spotlights"></div>
-      </section>
-
-      <section class="filters" aria-label="絞り込み">
-        <input id="query" type="search" placeholder="温泉、朝食、駅近、エリア名など">
-        <select id="theme"><option value="all">すべての旅タイプ</option></select>
-        <select id="sort"><option value="score">おすすめ順</option><option value="rating">レビュー評価順</option><option value="price">料金が安い順</option><option value="vacancy">空室候補が多い順</option></select>
-        <label><input id="available" type="checkbox" checked> 空室候補のみ</label>
+        <div class="filters" aria-label="宿の絞り込み条件">
+          <label>キーワード<input id="query" type="search" placeholder="宿名、駅名、温泉、朝食など"></label>
+          <label>エリア<select id="area"><option value="all">すべてのエリア</option></select></label>
+          <label>宿泊日<select id="stayDate"><option value="all">取得済み日程すべて</option></select></label>
+          <label>人数<select id="people"><option value="2" selected>2名想定</option></select></label>
+          <label>予算上限<select id="budget"><option value="all">指定なし</option><option value="8000">8,000円まで</option><option value="12000">12,000円まで</option><option value="18000">18,000円まで</option><option value="25000">25,000円まで</option></select></label>
+          <label>テーマ<select id="theme"><option value="all">すべて</option></select></label>
+          <label>並び替え<select id="sort"><option value="score">バランスおすすめ順</option><option value="rating">レビュー評価順</option><option value="price">料金が安い順</option><option value="vacancy">空室候補が多い順</option></select></label>
+          <label class="check-row"><input id="available" type="checkbox" checked> 空室候補ありのみ</label>
+        </div>
+        <div class="current-conditions" id="currentConditions"></div>
       </section>
 
       <section class="compare" id="compare"></section>
 
-      <section class="result-head">
-        <div><p class="eyebrow">Candidate List</p><h2 id="count">宿候補</h2></div>
+      <section class="result-head" id="results">
+        <div><p class="section-label">宿候補一覧</p><h2 id="count">楽天トラベル掲載宿</h2></div>
       </section>
       <section class="cards" id="cards" aria-live="polite"></section>
-
-      <aside class="drafts" id="draftArea"><h2>今日の記事ネタ</h2><div id="drafts"></div></aside>
     </main>
 
-    <footer>Powered by Rakuten Web Service. 楽天トラベル公式ページではありません。掲載内容は自動取得データをもとにした候補整理です。</footer>
+    <footer>
+      <p>当サイトは楽天トラベルの情報をもとに宿泊候補を整理しています。掲載情報は取得時点のものであり、最新の料金・空室・プラン内容は楽天トラベル公式ページでご確認ください。</p>
+      <p>当サイトは楽天アフィリエイトを利用しています。リンク経由で予約・購入が発生した場合、当サイトが報酬を受け取ることがあります。</p>
+    </footer>
     <script src="app.js" defer></script>
   </body>
 </html>
