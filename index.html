@@ -3,45 +3,72 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>週末宿みつけ | 楽天トラベル空室リサーチ</title>
-    <meta name="description" content="楽天トラベルの空室・レビュー・料金目安をもとに、直前旅行向けの宿候補を整理します。">
+    <title>週末宿作戦室 | 楽天トラベル空室リサーチ</title>
+    <meta name="description" content="楽天トラベルの空室・レビュー・料金目安をもとに、週末旅行の狙い目宿、目的別ショートリスト、記事下書き案を毎朝整理します。">
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <header class="topbar">
-      <a class="brand" href="index.html"><span class="mark">宿</span><span><b>週末宿みつけ</b><small>楽天トラベル空室リサーチ</small></span></a>
-      <nav><a href="themes/onsen.html">温泉</a><a href="themes/family.html">子連れ</a><a href="themes/station.html">駅近</a><a href="docs/OPERATIONS.md">運用</a></nav>
+      <a class="brand" href="index.html"><span class="mark">宿</span><span><b>週末宿作戦室</b><small>楽天トラベル空室リサーチ</small></span></a>
+      <nav><a href="#shortlist">狙い目</a><a href="#journeyBoard">旅タイプ</a><a href="#draftArea">記事ネタ</a><a href="docs/OPERATIONS.md">運用</a></nav>
     </header>
 
     <main class="shell">
       <section class="hero">
-        <div>
-          <p class="eyebrow">Rakuten Travel Research</p>
-          <h1>直前予約に強い宿候補を探す</h1>
-          <p>空室候補、レビュー、料金目安を毎日更新し、ブログ下書きにも使える形で整理します。</p>
+        <div class="hero-copy">
+          <p class="eyebrow">Morning Travel Brief</p>
+          <h1>検索する前に、今週末の「行けそうな宿」を絞る</h1>
+          <p>楽天トラベルの空室候補、レビュー、料金目安を毎朝まとめて、温泉・子連れ・駅近コスパの旅ネタに編集します。</p>
+          <div class="hero-actions">
+            <a class="btn" href="#shortlist">今日の狙い目を見る</a>
+            <button class="ghost-btn" id="draftBtn">記事ネタを作る</button>
+          </div>
+          <p class="disclosure">PR: 当サイトは楽天トラベルのアフィリエイトプログラムに参加予定です。料金・空室状況は変動します。</p>
         </div>
-        <aside class="notice">PR: 当サイトは楽天トラベルのアフィリエイトプログラムに参加予定です。料金・空室状況は変動します。</aside>
-      </section>
-
-      <section class="filters" aria-label="絞り込み">
-        <input id="query" type="search" placeholder="温泉、朝食、駅近など">
-        <select id="theme"><option value="all">すべて</option></select>
-        <select id="sort"><option value="score">おすすめ順</option><option value="rating">レビュー評価順</option><option value="price">料金が安い順</option></select>
-        <label><input id="available" type="checkbox" checked> 空室ありのみ</label>
+        <aside class="hero-pick" id="heroInsight" aria-live="polite"></aside>
       </section>
 
       <section class="summary" id="summary"></section>
 
+      <section class="panel" id="journeyBoard">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Trip Angles</p>
+            <h2>今日の旅タイプ</h2>
+          </div>
+          <span id="updatedAt" class="subtle"></span>
+        </div>
+        <div class="journeys" id="journeys"></div>
+      </section>
+
+      <section class="panel" id="shortlist">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Shortlist</p>
+            <h2>まず見る3つの切り口</h2>
+          </div>
+        </div>
+        <div class="spotlights" id="spotlights"></div>
+      </section>
+
+      <section class="filters" aria-label="絞り込み">
+        <input id="query" type="search" placeholder="温泉、朝食、駅近、エリア名など">
+        <select id="theme"><option value="all">すべての旅タイプ</option></select>
+        <select id="sort"><option value="score">おすすめ順</option><option value="rating">レビュー評価順</option><option value="price">料金が安い順</option><option value="vacancy">空室候補が多い順</option></select>
+        <label><input id="available" type="checkbox" checked> 空室候補のみ</label>
+      </section>
+
+      <section class="compare" id="compare"></section>
+
       <section class="result-head">
-        <div><p class="eyebrow">Search Results</p><h2 id="count">宿候補</h2></div>
-        <button id="draftBtn">この条件で下書き案</button>
+        <div><p class="eyebrow">Candidate List</p><h2 id="count">宿候補</h2></div>
       </section>
       <section class="cards" id="cards" aria-live="polite"></section>
 
-      <aside class="drafts"><h2>記事下書き</h2><div id="drafts"></div></aside>
+      <aside class="drafts" id="draftArea"><h2>今日の記事ネタ</h2><div id="drafts"></div></aside>
     </main>
 
-    <footer>Powered by Rakuten Web Service. 楽天トラベル公式ページではありません。</footer>
+    <footer>Powered by Rakuten Web Service. 楽天トラベル公式ページではありません。掲載内容は自動取得データをもとにした候補整理です。</footer>
     <script src="app.js" defer></script>
   </body>
 </html>
