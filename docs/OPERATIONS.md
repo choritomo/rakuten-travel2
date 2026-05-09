@@ -4,10 +4,9 @@
 
 1. GitHub Secretsに `RAKUTEN_APPLICATION_ID`、`RAKUTEN_ACCESS_KEY`、`RAKUTEN_AFFILIATE_ID` を登録します。
 2. GitHub PagesのSourceを `GitHub Actions` にします。
-3. Actions Variables に `PUBLIC_SITE_URL` を登録します。
-   - 正しい値: `https://choritomo.github.io/rakuten-travel2`
-   - 入れない値: `https://github.com/choritomo/rakuten-travel2.git`
-4. `Update Rakuten Travel data` を手動実行して、実データ取得を確認します。
+3. `Update Rakuten Travel data` を手動実行して、実データ取得を確認します。
+
+公開URLはワークフローで `https://choritomo.github.io/rakuten-travel2` に固定しています。古い `PUBLIC_SITE_URL` 変数が残っていても現在のActionsでは使いません。
 
 ## 毎日の自動更新
 
@@ -21,6 +20,7 @@
 - `drafts/latest-onsen.md` を生成
 - `themes/*.html` を生成
 - 変更があれば自動コミット
+- 同じジョブ内でGitHub Pagesへ公開
 
 取得ロジックや生成処理を変更したときも `push` で自動更新が走ります。生成されたデータだけのコミットでは再実行しないようにしています。
 
@@ -28,7 +28,7 @@
 
 1. Actions の `Update Rakuten Travel data` を開き、最新ログを確認します。
 2. `Updated 0 records` ではなく、`fallback` または `stale` と出ていれば空白回避は動いています。
-3. `REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING` が出た場合は、`PUBLIC_SITE_URL` と楽天Web Service側のアプリ設定で許可しているURLを確認します。
+3. `REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING` が出た場合は、楽天Web Service側のアプリ設定で公開URLが許可されているか確認します。
 4. Secrets の値が空でないか確認します。
 5. 日程が大型連休・満室期の場合は、エリアや日付を追加して再実行します。
 
