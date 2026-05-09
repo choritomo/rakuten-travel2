@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-08T23:09:02.108Z",
+  "updatedAt": "2026-05-09T02:48:06.060Z",
   "nextRunLabel": "毎日 07:10 JST",
   "source": {
     "type": "rakuten",
@@ -117,7 +117,7 @@
       "area": "神奈川 / 箱根",
       "mode": "vacant-onsen",
       "checkinDate": "2026-05-10",
-      "count": 29
+      "count": 28
     },
     {
       "area": "静岡 / 熱海",
@@ -185,7 +185,7 @@
       "minCharge": 5100,
       "reviewAverage": 4.64,
       "reviewCount": 2415,
-      "availabilityCount": 38,
+      "availabilityCount": 72,
       "available": true,
       "sourceKind": "vacant",
       "theme": "station",
@@ -253,7 +253,7 @@
       "minCharge": 10500,
       "reviewAverage": 4.68,
       "reviewCount": 3528,
-      "availabilityCount": 67,
+      "availabilityCount": 82,
       "available": true,
       "sourceKind": "vacant",
       "theme": "station",
@@ -438,6 +438,38 @@
       "recommendationScore": 186.3
     },
     {
+      "id": "978",
+      "name": "浦安ブライトンホテル東京ベイ",
+      "area": "千葉 / 舞浜",
+      "address": "千葉県 浦安市美浜１丁目９",
+      "nearestStation": "新浦安",
+      "special": "TDRパートナーホテル。パークまで直行シャトルバスで約15分。",
+      "minCharge": 6130,
+      "reviewAverage": 4.58,
+      "reviewCount": 4828,
+      "availabilityCount": 22,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "family",
+      "tags": [
+        "family",
+        "breakfast",
+        "station",
+        "budget"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/978/978.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D978",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "レビュー高評価",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 186
+    },
+    {
       "id": "1369",
       "name": "京都センチュリーホテル",
       "area": "京都 / 京都駅",
@@ -513,7 +545,7 @@
       "minCharge": 4350,
       "reviewAverage": 4.4,
       "reviewCount": 5109,
-      "availabilityCount": 31,
+      "availabilityCount": 52,
       "available": true,
       "sourceKind": "vacant",
       "theme": "station",
@@ -744,7 +776,7 @@
       "minCharge": 3690,
       "reviewAverage": 4.35,
       "reviewCount": 6175,
-      "availabilityCount": 135,
+      "availabilityCount": 138,
       "available": true,
       "sourceKind": "vacant",
       "theme": "station",
@@ -842,7 +874,7 @@
       "minCharge": 9700,
       "reviewAverage": 4.46,
       "reviewCount": 9253,
-      "availabilityCount": 57,
+      "availabilityCount": 52,
       "available": true,
       "sourceKind": "vacant",
       "theme": "station",
@@ -974,7 +1006,7 @@
       "minCharge": 3500,
       "reviewAverage": 4.3,
       "reviewCount": 3657,
-      "availabilityCount": 24,
+      "availabilityCount": 22,
       "available": true,
       "sourceKind": "vacant",
       "theme": "station",
@@ -1266,7 +1298,7 @@
       "minCharge": 7334,
       "reviewAverage": 4.38,
       "reviewCount": 13185,
-      "availabilityCount": 48,
+      "availabilityCount": 52,
       "available": true,
       "sourceKind": "vacant",
       "theme": "family",
@@ -1331,7 +1363,7 @@
       "minCharge": 8500,
       "reviewAverage": 4.43,
       "reviewCount": 3420,
-      "availabilityCount": 39,
+      "availabilityCount": 33,
       "available": true,
       "sourceKind": "vacant",
       "theme": "station",
@@ -1526,7 +1558,7 @@
       "minCharge": 6800,
       "reviewAverage": 4.35,
       "reviewCount": 4762,
-      "availabilityCount": 32,
+      "availabilityCount": 24,
       "available": true,
       "sourceKind": "vacant",
       "theme": "station",
@@ -1591,7 +1623,7 @@
       "minCharge": 7500,
       "reviewAverage": 4.64,
       "reviewCount": 1355,
-      "availabilityCount": 25,
+      "availabilityCount": 35,
       "available": true,
       "sourceKind": "vacant",
       "theme": "breakfast",
@@ -1625,7 +1657,7 @@
       "minCharge": 7000,
       "reviewAverage": 4.31,
       "reviewCount": 5426,
-      "availabilityCount": 59,
+      "availabilityCount": 55,
       "available": true,
       "sourceKind": "vacant",
       "theme": "station",
@@ -1690,7 +1722,7 @@
       "minCharge": 9267,
       "reviewAverage": 4.36,
       "reviewCount": 13775,
-      "availabilityCount": 40,
+      "availabilityCount": 28,
       "available": true,
       "sourceKind": "vacant",
       "theme": "budget",
@@ -1752,7 +1784,7 @@
       "minCharge": 3840,
       "reviewAverage": 4.35,
       "reviewCount": 2341,
-      "availabilityCount": 68,
+      "availabilityCount": 61,
       "available": true,
       "sourceKind": "vacant",
       "theme": "breakfast",
@@ -1817,7 +1849,7 @@
       "minCharge": 6130,
       "reviewAverage": 4.26,
       "reviewCount": 7000,
-      "availabilityCount": 134,
+      "availabilityCount": 132,
       "available": true,
       "sourceKind": "vacant",
       "theme": "station",
@@ -1882,7 +1914,7 @@
       "minCharge": 2193,
       "reviewAverage": 4.25,
       "reviewCount": 2870,
-      "availabilityCount": 137,
+      "availabilityCount": 130,
       "available": true,
       "sourceKind": "vacant",
       "theme": "breakfast",
@@ -1914,7 +1946,7 @@
       "minCharge": 8840,
       "reviewAverage": 4.31,
       "reviewCount": 3692,
-      "availabilityCount": 86,
+      "availabilityCount": 94,
       "available": true,
       "sourceKind": "vacant",
       "theme": "budget",
@@ -2046,7 +2078,7 @@
       "minCharge": 5530,
       "reviewAverage": 4.22,
       "reviewCount": 5928,
-      "availabilityCount": 28,
+      "availabilityCount": 20,
       "available": true,
       "sourceKind": "vacant",
       "theme": "station",
@@ -2851,6 +2883,37 @@
       "recommendationScore": 173.4
     },
     {
+      "id": "167",
+      "name": "ホテル日航大阪",
+      "area": "大阪 / なんば",
+      "address": "大阪府 大阪市中央区西心斎橋1-3-3",
+      "nearestStation": "心斎橋",
+      "special": "大阪メトロ心斎橋駅直結、アクセス抜群★雨でも濡れずに便利！",
+      "minCharge": 6375,
+      "reviewAverage": 4.47,
+      "reviewCount": 5336,
+      "availabilityCount": 15,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "budget",
+      "tags": [
+        "station",
+        "budget",
+        "solo"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/167/167.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D167",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "レビュー高評価",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 173.2
+    },
+    {
       "id": "178586",
       "name": "Ｕｍｅｋｏｊｉ　Ｐｏｔｅｌ　ＫＹＯＴＯ（梅小路ポテル京都）",
       "area": "京都 / 京都駅",
@@ -2860,7 +2923,7 @@
       "minCharge": 5278,
       "reviewAverage": 4.68,
       "reviewCount": 758,
-      "availabilityCount": 26,
+      "availabilityCount": 30,
       "available": true,
       "sourceKind": "vacant",
       "theme": "station",
@@ -3119,7 +3182,7 @@
       "minCharge": 4800,
       "reviewAverage": 4.33,
       "reviewCount": 1455,
-      "availabilityCount": 104,
+      "availabilityCount": 117,
       "available": true,
       "sourceKind": "vacant",
       "theme": "budget",
@@ -3202,38 +3265,6 @@
       "recommendationScore": 171.8
     },
     {
-      "id": "978",
-      "name": "浦安ブライトンホテル東京ベイ",
-      "area": "千葉 / 舞浜",
-      "address": "千葉県 浦安市美浜１丁目９",
-      "nearestStation": "新浦安",
-      "special": "TDRパートナーホテル。パークまで直行シャトルバスで約15分。",
-      "minCharge": 6130,
-      "reviewAverage": 4.58,
-      "reviewCount": 4828,
-      "availabilityCount": 12,
-      "available": true,
-      "sourceKind": "vacant",
-      "theme": "family",
-      "tags": [
-        "family",
-        "breakfast",
-        "station",
-        "budget"
-      ],
-      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/978/978.jpg",
-      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D978",
-      "checkinDate": "2026-05-10",
-      "checkoutDate": "2026-05-11",
-      "reasons": [
-        "空室候補として取得",
-        "レビュー高評価",
-        "駅・徒歩アクセス系キーワードあり",
-        "料金目安が比較的控えめ"
-      ],
-      "recommendationScore": 171.6
-    },
-    {
       "id": "76849",
       "name": "マイステイズ新浦安",
       "area": "千葉 / 舞浜",
@@ -3265,36 +3296,6 @@
       "recommendationScore": 171.6
     },
     {
-      "id": "146123",
-      "name": "ホテルリリーフ札幌すすきの",
-      "area": "北海道 / 札幌",
-      "address": "北海道 札幌市中央区南8条西3-1-4",
-      "nearestStation": "中島公園",
-      "special": "札幌駅から３駅◆蔵書数15000冊以上の漫画コーナー＆フリーラウンジでお客様をお出迎え致します",
-      "minCharge": 1838,
-      "reviewAverage": 4.24,
-      "reviewCount": 1576,
-      "availabilityCount": 24,
-      "available": true,
-      "sourceKind": "vacant",
-      "theme": "breakfast",
-      "tags": [
-        "breakfast",
-        "station",
-        "budget"
-      ],
-      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/146123/146123.jpg",
-      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D146123",
-      "checkinDate": "2026-05-10",
-      "checkoutDate": "2026-05-11",
-      "reasons": [
-        "空室候補として取得",
-        "駅・徒歩アクセス系キーワードあり",
-        "料金目安が比較的控えめ"
-      ],
-      "recommendationScore": 171.5
-    },
-    {
       "id": "8842",
       "name": "大江戸温泉物語　ホテル鬼怒川御苑",
       "area": "栃木 / 鬼怒川温泉",
@@ -3323,37 +3324,6 @@
       "reasons": [
         "空室候補として取得",
         "温泉・大浴場系キーワードあり",
-        "駅・徒歩アクセス系キーワードあり",
-        "料金目安が比較的控えめ"
-      ],
-      "recommendationScore": 171.4
-    },
-    {
-      "id": "167",
-      "name": "ホテル日航大阪",
-      "area": "大阪 / なんば",
-      "address": "大阪府 大阪市中央区西心斎橋1-3-3",
-      "nearestStation": "心斎橋",
-      "special": "大阪メトロ心斎橋駅直結、アクセス抜群★雨でも濡れずに便利！",
-      "minCharge": 6375,
-      "reviewAverage": 4.47,
-      "reviewCount": 5336,
-      "availabilityCount": 14,
-      "available": true,
-      "sourceKind": "vacant",
-      "theme": "budget",
-      "tags": [
-        "station",
-        "budget",
-        "solo"
-      ],
-      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/167/167.jpg",
-      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D167",
-      "checkinDate": "2026-05-10",
-      "checkoutDate": "2026-05-11",
-      "reasons": [
-        "空室候補として取得",
-        "レビュー高評価",
         "駅・徒歩アクセス系キーワードあり",
         "料金目安が比較的控えめ"
       ],
@@ -3394,6 +3364,36 @@
         "料金目安が比較的控えめ"
       ],
       "recommendationScore": 171.2
+    },
+    {
+      "id": "130113",
+      "name": "ザ　ロイヤルパークホテル　福岡",
+      "area": "福岡 / 博多",
+      "address": "福岡県 福岡市博多区博多駅前2-14-15",
+      "nearestStation": "博多",
+      "special": "◆博多駅・キャナルシティ博多まで徒歩約5分◆ビジネスや観光の拠点として好立地◆ツインルーム以上は洗い場付き浴室！",
+      "minCharge": 6160,
+      "reviewAverage": 4.22,
+      "reviewCount": 1586,
+      "availabilityCount": 22,
+      "available": true,
+      "sourceKind": "vacant",
+      "theme": "station",
+      "tags": [
+        "station",
+        "breakfast",
+        "budget"
+      ],
+      "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/130113/130113.jpg",
+      "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D130113",
+      "checkinDate": "2026-05-10",
+      "checkoutDate": "2026-05-11",
+      "reasons": [
+        "空室候補として取得",
+        "駅・徒歩アクセス系キーワードあり",
+        "料金目安が比較的控えめ"
+      ],
+      "recommendationScore": 171.2
     }
   ],
   "drafts": [
@@ -3409,7 +3409,7 @@
         "5081",
         "7523"
       ],
-      "updatedAt": "2026-05-08T23:09:02.108Z"
+      "updatedAt": "2026-05-09T02:48:06.060Z"
     },
     {
       "id": "family-breakfast",
@@ -3423,7 +3423,7 @@
         "2003",
         "146107"
       ],
-      "updatedAt": "2026-05-08T23:09:02.108Z"
+      "updatedAt": "2026-05-09T02:48:06.060Z"
     }
   ]
 }
