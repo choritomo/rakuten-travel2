@@ -3,23 +3,15 @@
 > PR: 楽天トラベルのアフィリエイトリンクを含みます。料金・空室は変動します。
 > データ種別: Rakuten Travel API / 空室検索を複数日・複数条件で試し、空室が少ないエリアは施設検索候補で補完しています。料金・空室は楽天トラベル側で最終確認してください。
 
-## 1. ホテルニューオータニ大阪
-- エリア: 大阪 / なんば
-- 料金目安: 9,180円から
-- レビュー: 4.54 / 5.0
+## 1. ホテルモントレエーデルホフ札幌
+- エリア: 北海道 / 札幌
+- 料金目安: 3,900円から
+- レビュー: 4.42 / 5.0
 - 空室: 候補あり
 - 理由: 空室候補として取得、レビュー高評価、温泉・大浴場系キーワードあり、駅・徒歩アクセス系キーワードあり、料金目安が比較的控えめ
-- URL: https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D91
+- URL: https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D7523
 
-## 2. ＳＰＡ＆ＨＯＴＥＬ　舞浜ユーラシア
-- エリア: 千葉 / 舞浜
-- 料金目安: 5,400円から
-- レビュー: 4.39 / 5.0
-- 空室: 候補あり
-- 理由: 空室候補として取得、レビュー高評価、温泉・大浴場系キーワードあり、駅・徒歩アクセス系キーワードあり、料金目安が比較的控えめ
-- URL: https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D67868
-
-## 3. アパホテル＆リゾート〈横浜ベイタワー〉
+## 2. アパホテル＆リゾート〈横浜ベイタワー〉
 - エリア: 神奈川 / 横浜みなとみらい
 - 料金目安: 3,690円から
 - レビュー: 4.35 / 5.0
@@ -27,7 +19,7 @@
 - 理由: 空室候補として取得、レビュー高評価、温泉・大浴場系キーワードあり、駅・徒歩アクセス系キーワードあり、料金目安が比較的控えめ
 - URL: https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D171996
 
-## 4. 箱根湯本温泉　ホテルおくゆもと
+## 3. 箱根湯本温泉　ホテルおくゆもと
 - エリア: 神奈川 / 箱根
 - 料金目安: 11,000円から
 - レビュー: 4.4 / 5.0
@@ -35,11 +27,19 @@
 - 理由: 空室候補として取得、レビュー高評価、温泉・大浴場系キーワードあり、駅・徒歩アクセス系キーワードあり、料金目安が比較的控えめ
 - URL: https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D5081
 
-## 5. ホテルプラム（ＨＯＴＥＬ　ＰＬＵＭＭ）横浜
-- エリア: 神奈川 / 横浜みなとみらい
-- 料金目安: 3,150円から
-- レビュー: 4.31 / 5.0
+## 4. ホテルリソルトリニティ博多
+- エリア: 福岡 / 博多
+- 料金目安: 7,650円から
+- レビュー: 4.37 / 5.0
 - 空室: 候補あり
 - 理由: 空室候補として取得、レビュー高評価、温泉・大浴場系キーワードあり、駅・徒歩アクセス系キーワードあり、料金目安が比較的控えめ
-- URL: https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D1428
+- URL: https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D130169
+
+## 5. ホテル京阪　札幌
+- エリア: 北海道 / 札幌
+- 料金目安: 4,000円から
+- レビュー: 4.37 / 5.0
+- 空室: 候補あり
+- 理由: 空室候補として取得、レビュー高評価、温泉・大浴場系キーワードあり、駅・徒歩アクセス系キーワードあり、料金目安が比較的控えめ
+- URL: https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D79254
 
