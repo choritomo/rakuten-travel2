@@ -6,15 +6,15 @@
 ## 1. ロイヤルツインホテル京都八条口
 - エリア: 京都 / 京都駅
 - 料金目安: 5,880円から
-- レビュー: 4.62 / 5.0
+- レビュー: 4.61 / 5.0
 - 空室: 候補あり
 - 理由: 空室候補として取得、レビュー高評価、温泉・大浴場系キーワードあり、駅・徒歩アクセス系キーワードあり、料金目安が比較的控えめ
 - URL: https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D177759
 
 ## 2. ホテルニューオータニ大阪
 - エリア: 大阪 / なんば
-- 料金目安: 9,690円から
-- レビュー: 4.59 / 5.0
+- 料金目安: 8,670円から
+- レビュー: 4.6 / 5.0
 - 空室: 候補あり
 - 理由: 空室候補として取得、レビュー高評価、温泉・大浴場系キーワードあり、駅・徒歩アクセス系キーワードあり、料金目安が比較的控えめ
 - URL: https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D91
@@ -22,7 +22,7 @@
 ## 3. 箱根湯本温泉　女性に優しい癒しの宿　ホテルマイユクール祥月
 - エリア: 神奈川 / 箱根
 - 料金目安: 10,000円から
-- レビュー: 4.55 / 5.0
+- レビュー: 4.56 / 5.0
 - 空室: 候補あり
 - 理由: 空室候補として取得、レビュー高評価、温泉・大浴場系キーワードあり、駅・徒歩アクセス系キーワードあり、料金目安が比較的控えめ
 - URL: https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D19786
@@ -35,11 +35,11 @@
 - 理由: 空室候補として取得、レビュー高評価、温泉・大浴場系キーワードあり、駅・徒歩アクセス系キーワードあり、料金目安が比較的控えめ
 - URL: https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D67868
 
-## 5. ホテル　エルシエント京都八条口
+## 5. ホテルモントレ京都
 - エリア: 京都 / 京都駅
-- 料金目安: 3,910円から
-- レビュー: 4.36 / 5.0
+- 料金目安: 4,720円から
+- レビュー: 4.49 / 5.0
 - 空室: 候補あり
 - 理由: 空室候補として取得、レビュー高評価、温泉・大浴場系キーワードあり、駅・徒歩アクセス系キーワードあり、料金目安が比較的控えめ
-- URL: https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D9402
+- URL: https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D55347
 
