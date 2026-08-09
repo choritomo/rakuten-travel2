@@ -19,7 +19,15 @@
 - 理由: 空室候補として取得、レビュー高評価、温泉・大浴場系キーワードあり、駅・徒歩アクセス系キーワードあり、料金目安が比較的控えめ
 - URL: https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D91
 
-## 3. ホテルモントレ京都
+## 3. 天然温泉　花蛍の湯　ドーミーインＰＲＥＭＩＵＭ京都駅前（ドーミーイン・御宿野乃　ホテルズグループ）
+- エリア: 京都 / 京都駅
+- 料金目安: 7,000円から
+- レビュー: 4.46 / 5.0
+- 空室: 候補あり
+- 理由: 空室候補として取得、レビュー高評価、温泉・大浴場系キーワードあり、駅・徒歩アクセス系キーワードあり、料金目安が比較的控えめ
+- URL: https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D104701
+
+## 4. ホテルモントレ京都
 - エリア: 京都 / 京都駅
 - 料金目安: 5,000円から
 - レビュー: 4.49 / 5.0
@@ -27,19 +35,11 @@
 - 理由: 空室候補として取得、レビュー高評価、温泉・大浴場系キーワードあり、駅・徒歩アクセス系キーワードあり、料金目安が比較的控えめ
 - URL: https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D55347
 
-## 4. ホテル京阪　札幌
-- エリア: 北海道 / 札幌
-- 料金目安: 5,750円から
-- レビュー: 4.37 / 5.0
+## 5. ホテル　エルシエント京都八条口
+- エリア: 京都 / 京都駅
+- 料金目安: 3,740円から
+- レビュー: 4.36 / 5.0
 - 空室: 候補あり
 - 理由: 空室候補として取得、レビュー高評価、温泉・大浴場系キーワードあり、駅・徒歩アクセス系キーワードあり、料金目安が比較的控えめ
-- URL: https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D79254
-
-## 5. ウェスティン都ホテル京都
-- エリア: 京都 / 京都駅
-- 料金目安: 26,565円から
-- レビュー: 4.76 / 5.0
-- 空室: 候補あり
-- 理由: 空室候補として取得、レビュー高評価、温泉・大浴場系キーワードあり、駅・徒歩アクセス系キーワードあり
-- URL: https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D1167
+- URL: https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D9402
 
