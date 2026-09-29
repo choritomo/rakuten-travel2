@@ -5,41 +5,41 @@
 
 ## 1. ホテルニューオータニ大阪
 - エリア: 大阪 / なんば
-- 料金目安: 9,690円から
+- 料金目安: 10,260円から
 - レビュー: 4.63 / 5.0
 - 空室: 候補あり
 - 理由: 空室候補として取得、レビュー高評価、温泉・大浴場系キーワードあり、駅・徒歩アクセス系キーワードあり、料金目安が比較的控えめ
 - URL: https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D91
 
-## 2. ホテル京阪　京都八条口
-- エリア: 京都 / 京都駅
-- 料金目安: 4,500円から
-- レビュー: 4.39 / 5.0
-- 空室: 候補あり
-- 理由: 空室候補として取得、レビュー高評価、温泉・大浴場系キーワードあり、駅・徒歩アクセス系キーワードあり、料金目安が比較的控えめ
-- URL: https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D166081
-
-## 3. 箱根湯本温泉　ホテルおくゆもと
+## 2. 箱根湯本温泉　女性に優しい癒しの宿　ホテルマイユクール祥月
 - エリア: 神奈川 / 箱根
-- 料金目安: 11,000円から
-- レビュー: 4.44 / 5.0
+- 料金目安: 8,500円から
+- レビュー: 4.55 / 5.0
 - 空室: 候補あり
 - 理由: 空室候補として取得、レビュー高評価、温泉・大浴場系キーワードあり、駅・徒歩アクセス系キーワードあり、料金目安が比較的控えめ
-- URL: https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D5081
+- URL: https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D19786
 
-## 4. ホテルソビアルなんば大国町
-- エリア: 大阪 / なんば
-- 料金目安: 3,000円から
-- レビュー: 4.38 / 5.0
+## 3. ＳＰＡ＆ＨＯＴＥＬ　舞浜ユーラシア
+- エリア: 千葉 / 舞浜
+- 料金目安: 6,925円から
+- レビュー: 4.45 / 5.0
 - 空室: 候補あり
 - 理由: 空室候補として取得、レビュー高評価、温泉・大浴場系キーワードあり、駅・徒歩アクセス系キーワードあり、料金目安が比較的控えめ
-- URL: https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D172871
+- URL: https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D67868
 
-## 5. 天然温泉　花蛍の湯　ドーミーインＰＲＥＭＩＵＭ京都駅前（ドーミーイン・御宿野乃　ホテルズグループ）
+## 4. ホテルモントレ京都
 - エリア: 京都 / 京都駅
-- 料金目安: 11,582円から
-- レビュー: 4.48 / 5.0
+- 料金目安: 9,010円から
+- レビュー: 4.5 / 5.0
 - 空室: 候補あり
 - 理由: 空室候補として取得、レビュー高評価、温泉・大浴場系キーワードあり、駅・徒歩アクセス系キーワードあり、料金目安が比較的控えめ
-- URL: https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D104701
+- URL: https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D55347
+
+## 5. ホテル　エルシエント京都八条口
+- エリア: 京都 / 京都駅
+- 料金目安: 5,650円から
+- レビュー: 4.34 / 5.0
+- 空室: 候補あり
+- 理由: 空室候補として取得、レビュー高評価、温泉・大浴場系キーワードあり、駅・徒歩アクセス系キーワードあり、料金目安が比較的控えめ
+- URL: https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D9402
 
