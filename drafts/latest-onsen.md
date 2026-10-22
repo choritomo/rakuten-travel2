@@ -19,27 +19,27 @@
 - 理由: 空室候補として取得、レビュー高評価、温泉・大浴場系キーワードあり、駅・徒歩アクセス系キーワードあり、料金目安が比較的控えめ
 - URL: https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D67259
 
-## 3. 草津温泉　ホテル櫻井
-- エリア: 群馬 / 草津温泉
-- 料金目安: 16,500円から
-- レビュー: 4.52 / 5.0
-- 空室: 候補あり
-- 理由: 空室候補として取得、レビュー高評価、温泉・大浴場系キーワードあり、駅・徒歩アクセス系キーワードあり
-- URL: https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D56137
-
-## 4. 草津温泉　ホテルヴィレッジ
-- エリア: 群馬 / 草津温泉
-- 料金目安: 9,900円から
-- レビュー: 4.33 / 5.0
-- 空室: 候補あり
-- 理由: 空室候補として取得、レビュー高評価、温泉・大浴場系キーワードあり、料金目安が比較的控えめ
-- URL: https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D5270
-
-## 5. 天然温泉　四季彩の湯　スーパーホテルＰｒｅｍｉｅｒ大阪本町駅前
-- エリア: 大阪 / なんば
-- 料金目安: 4,600円から
-- レビュー: 4.42 / 5.0
+## 3. ホテル京阪　京都八条口
+- エリア: 京都 / 京都駅
+- 料金目安: 7,267円から
+- レビュー: 4.4 / 5.0
 - 空室: 候補あり
 - 理由: 空室候補として取得、レビュー高評価、温泉・大浴場系キーワードあり、駅・徒歩アクセス系キーワードあり、料金目安が比較的控えめ
-- URL: https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D151344
+- URL: https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D166081
+
+## 4. ホテルリソルトリニティ博多
+- エリア: 福岡 / 博多
+- 料金目安: 9,970円から
+- レビュー: 4.43 / 5.0
+- 空室: 候補あり
+- 理由: 空室候補として取得、レビュー高評価、温泉・大浴場系キーワードあり、駅・徒歩アクセス系キーワードあり、料金目安が比較的控えめ
+- URL: https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D130169
+
+## 5. ロイヤルツインホテル京都八条口
+- エリア: 京都 / 京都駅
+- 料金目安: 12,376円から
+- レビュー: 4.61 / 5.0
+- 空室: 候補あり
+- 理由: 空室候補として取得、レビュー高評価、温泉・大浴場系キーワードあり、駅・徒歩アクセス系キーワードあり
+- URL: https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D177759
 
