@@ -3,23 +3,7 @@
 > PR: 楽天トラベルのアフィリエイトリンクを含みます。料金・空室は変動します。
 > データ種別: Rakuten Travel API / 空室検索を複数日・複数条件で試し、空室が少ないエリアは施設検索候補で補完しています。料金・空室は楽天トラベル側で最終確認してください。
 
-## 1. ホテルニューオータニ大阪
-- エリア: 大阪 / なんば
-- 料金目安: 10,455円から
-- レビュー: 4.63 / 5.0
-- 空室: 候補あり
-- 理由: 空室候補として取得、レビュー高評価、温泉・大浴場系キーワードあり、駅・徒歩アクセス系キーワードあり、料金目安が比較的控えめ
-- URL: https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D91
-
-## 2. ＳＰＡ＆ＨＯＴＥＬ　舞浜ユーラシア
-- エリア: 千葉 / 舞浜
-- 料金目安: 6,925円から
-- レビュー: 4.46 / 5.0
-- 空室: 候補あり
-- 理由: 空室候補として取得、レビュー高評価、温泉・大浴場系キーワードあり、駅・徒歩アクセス系キーワードあり、料金目安が比較的控えめ
-- URL: https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D67868
-
-## 3. ホテル　エルシエント京都八条口
+## 1. ホテル　エルシエント京都八条口
 - エリア: 京都 / 京都駅
 - 料金目安: 7,560円から
 - レビュー: 4.33 / 5.0
@@ -27,19 +11,35 @@
 - 理由: 空室候補として取得、レビュー高評価、温泉・大浴場系キーワードあり、駅・徒歩アクセス系キーワードあり、料金目安が比較的控えめ
 - URL: https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D9402
 
-## 4. ホテルソビアルなんば大国町
-- エリア: 大阪 / なんば
-- 料金目安: 3,700円から
-- レビュー: 4.37 / 5.0
+## 2. ホテルリソルトリニティ博多
+- エリア: 福岡 / 博多
+- 料金目安: 9,970円から
+- レビュー: 4.43 / 5.0
 - 空室: 候補あり
 - 理由: 空室候補として取得、レビュー高評価、温泉・大浴場系キーワードあり、駅・徒歩アクセス系キーワードあり、料金目安が比較的控えめ
-- URL: https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D172871
+- URL: https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D130169
 
-## 5. 天然温泉　浪華の湯　ドーミーイン大阪谷町（ドーミーイン・御宿野乃　ホテルズグループ）
-- エリア: 大阪 / なんば
-- 料金目安: 5,650円から
-- レビュー: 4.47 / 5.0
+## 3. 天然温泉　御所の湯　スーパーホテル京都・四条河原町
+- エリア: 京都 / 京都駅
+- 料金目安: 8,950円から
+- レビュー: 4.34 / 5.0
 - 空室: 候補あり
 - 理由: 空室候補として取得、レビュー高評価、温泉・大浴場系キーワードあり、駅・徒歩アクセス系キーワードあり、料金目安が比較的控えめ
-- URL: https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D167091
+- URL: https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D75325
+
+## 4. 湯元「花乃井」スーパーホテル大阪天然温泉
+- エリア: 大阪 / なんば
+- 料金目安: 3,960円から
+- レビュー: 4.4 / 5.0
+- 空室: 候補あり
+- 理由: 空室候補として取得、レビュー高評価、温泉・大浴場系キーワードあり、駅・徒歩アクセス系キーワードあり、料金目安が比較的控えめ
+- URL: https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D217
+
+## 5. スーパーホテル横浜・関内
+- エリア: 神奈川 / 横浜みなとみらい
+- 料金目安: 4,635円から
+- レビュー: 4.22 / 5.0
+- 空室: 候補あり
+- 理由: 空室候補として取得、温泉・大浴場系キーワードあり、駅・徒歩アクセス系キーワードあり、料金目安が比較的控えめ
+- URL: https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D68609
 
