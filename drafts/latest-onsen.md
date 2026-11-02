@@ -13,7 +13,7 @@
 
 ## 2. ホテルニューオータニ大阪
 - エリア: 大阪 / なんば
-- 料金目安: 10,455円から
+- 料金目安: 10,200円から
 - レビュー: 4.63 / 5.0
 - 空室: 候補あり
 - 理由: 空室候補として取得、レビュー高評価、温泉・大浴場系キーワードあり、駅・徒歩アクセス系キーワードあり、料金目安が比較的控えめ
@@ -21,25 +21,25 @@
 
 ## 3. クロスホテル札幌（オリックスホテルズ＆リゾーツ）
 - エリア: 北海道 / 札幌
-- 料金目安: 5,400円から
+- 料金目安: 5,700円から
 - レビュー: 4.43 / 5.0
 - 空室: 候補あり
 - 理由: 空室候補として取得、レビュー高評価、温泉・大浴場系キーワードあり、駅・徒歩アクセス系キーワードあり、料金目安が比較的控えめ
 - URL: https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D67259
 
-## 4. ホテルリソルトリニティ博多
-- エリア: 福岡 / 博多
-- 料金目安: 9,970円から
-- レビュー: 4.43 / 5.0
+## 4. ＳＰＡ＆ＨＯＴＥＬ　舞浜ユーラシア
+- エリア: 千葉 / 舞浜
+- 料金目安: 6,175円から
+- レビュー: 4.47 / 5.0
 - 空室: 候補あり
 - 理由: 空室候補として取得、レビュー高評価、温泉・大浴場系キーワードあり、駅・徒歩アクセス系キーワードあり、料金目安が比較的控えめ
-- URL: https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D130169
+- URL: https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D67868
 
-## 5. 天然温泉　御所の湯　スーパーホテル京都・四条河原町
-- エリア: 京都 / 京都駅
-- 料金目安: 8,430円から
-- レビュー: 4.34 / 5.0
+## 5. 箱根湯本温泉　ホテルおくゆもと
+- エリア: 神奈川 / 箱根
+- 料金目安: 11,000円から
+- レビュー: 4.46 / 5.0
 - 空室: 候補あり
 - 理由: 空室候補として取得、レビュー高評価、温泉・大浴場系キーワードあり、駅・徒歩アクセス系キーワードあり、料金目安が比較的控えめ
-- URL: https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D75325
+- URL: https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D5081
 
