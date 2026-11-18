@@ -3,15 +3,7 @@
 > PR: 楽天トラベルのアフィリエイトリンクを含みます。料金・空室は変動します。
 > データ種別: Rakuten Travel API / 空室検索を複数日・複数条件で試し、空室が少ないエリアは施設検索候補で補完しています。料金・空室は楽天トラベル側で最終確認してください。
 
-## 1. ロイヤルツインホテル京都八条口
-- エリア: 京都 / 京都駅
-- 料金目安: 8,627円から
-- レビュー: 4.59 / 5.0
-- 空室: 候補あり
-- 理由: 空室候補として取得、レビュー高評価、温泉・大浴場系キーワードあり、駅・徒歩アクセス系キーワードあり、料金目安が比較的控えめ
-- URL: https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D177759
-
-## 2. ホテルニューオータニ大阪
+## 1. ホテルニューオータニ大阪
 - エリア: 大阪 / なんば
 - 料金目安: 9,690円から
 - レビュー: 4.61 / 5.0
@@ -19,7 +11,7 @@
 - 理由: 空室候補として取得、レビュー高評価、温泉・大浴場系キーワードあり、駅・徒歩アクセス系キーワードあり、料金目安が比較的控えめ
 - URL: https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D91
 
-## 3. クロスホテル札幌（オリックスホテルズ＆リゾーツ）
+## 2. クロスホテル札幌（オリックスホテルズ＆リゾーツ）
 - エリア: 北海道 / 札幌
 - 料金目安: 5,700円から
 - レビュー: 4.43 / 5.0
@@ -27,19 +19,27 @@
 - 理由: 空室候補として取得、レビュー高評価、温泉・大浴場系キーワードあり、駅・徒歩アクセス系キーワードあり、料金目安が比較的控えめ
 - URL: https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D67259
 
-## 4. ホテルソビアルなんば大国町
-- エリア: 大阪 / なんば
-- 料金目安: 3,500円から
-- レビュー: 4.38 / 5.0
+## 3. ＳＰＡ＆ＨＯＴＥＬ　舞浜ユーラシア
+- エリア: 千葉 / 舞浜
+- 料金目安: 6,800円から
+- レビュー: 4.46 / 5.0
 - 空室: 候補あり
 - 理由: 空室候補として取得、レビュー高評価、温泉・大浴場系キーワードあり、駅・徒歩アクセス系キーワードあり、料金目安が比較的控えめ
-- URL: https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D172871
+- URL: https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D67868
 
-## 5. ホテル京阪　札幌
+## 4. ホテル京阪　札幌
 - エリア: 北海道 / 札幌
 - 料金目安: 4,300円から
 - レビュー: 4.35 / 5.0
 - 空室: 候補あり
 - 理由: 空室候補として取得、レビュー高評価、温泉・大浴場系キーワードあり、駅・徒歩アクセス系キーワードあり、料金目安が比較的控えめ
 - URL: https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D79254
+
+## 5. 草津温泉　ホテル櫻井
+- エリア: 群馬 / 草津温泉
+- 料金目安: 14,300円から
+- レビュー: 4.52 / 5.0
+- 空室: 候補あり
+- 理由: 空室候補として取得、レビュー高評価、温泉・大浴場系キーワードあり、駅・徒歩アクセス系キーワードあり
+- URL: https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D56137
 
