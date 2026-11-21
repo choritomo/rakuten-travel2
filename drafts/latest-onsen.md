@@ -3,7 +3,15 @@
 > PR: 楽天トラベルのアフィリエイトリンクを含みます。料金・空室は変動します。
 > データ種別: Rakuten Travel API / 空室検索を複数日・複数条件で試し、空室が少ないエリアは施設検索候補で補完しています。料金・空室は楽天トラベル側で最終確認してください。
 
-## 1. クロスホテル札幌（オリックスホテルズ＆リゾーツ）
+## 1. ホテルニューオータニ大阪
+- エリア: 大阪 / なんば
+- 料金目安: 9,690円から
+- レビュー: 4.61 / 5.0
+- 空室: 候補あり
+- 理由: 空室候補として取得、レビュー高評価、温泉・大浴場系キーワードあり、駅・徒歩アクセス系キーワードあり、料金目安が比較的控えめ
+- URL: https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D91
+
+## 2. クロスホテル札幌（オリックスホテルズ＆リゾーツ）
 - エリア: 北海道 / 札幌
 - 料金目安: 5,700円から
 - レビュー: 4.43 / 5.0
@@ -11,35 +19,27 @@
 - 理由: 空室候補として取得、レビュー高評価、温泉・大浴場系キーワードあり、駅・徒歩アクセス系キーワードあり、料金目安が比較的控えめ
 - URL: https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D67259
 
-## 2. ＳＡＫＵＲＡ　ＴＥＲＲＡＣＥ　ＴＨＥ　ＧＡＬＬＥＲＹ(サクラテラス　ザ　ギャラリー）
+## 3. 天然温泉　御所の湯　スーパーホテル京都・四条河原町
 - エリア: 京都 / 京都駅
-- 料金目安: 8,250円から
-- レビュー: 4.51 / 5.0
+- 料金目安: 5,830円から
+- レビュー: 4.34 / 5.0
 - 空室: 候補あり
 - 理由: 空室候補として取得、レビュー高評価、温泉・大浴場系キーワードあり、駅・徒歩アクセス系キーワードあり、料金目安が比較的控えめ
-- URL: https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D147819
+- URL: https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D75325
 
-## 3. 湯元「花乃井」スーパーホテル大阪天然温泉
+## 4. ホテル京阪　札幌
+- エリア: 北海道 / 札幌
+- 料金目安: 4,300円から
+- レビュー: 4.35 / 5.0
+- 空室: 候補あり
+- 理由: 空室候補として取得、レビュー高評価、温泉・大浴場系キーワードあり、駅・徒歩アクセス系キーワードあり、料金目安が比較的控えめ
+- URL: https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D79254
+
+## 5. 湯元「花乃井」スーパーホテル大阪天然温泉
 - エリア: 大阪 / なんば
 - 料金目安: 3,900円から
 - レビュー: 4.4 / 5.0
 - 空室: 候補あり
 - 理由: 空室候補として取得、レビュー高評価、温泉・大浴場系キーワードあり、駅・徒歩アクセス系キーワードあり、料金目安が比較的控えめ
 - URL: https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D217
-
-## 4. 天然温泉　四季彩の湯　スーパーホテルＰｒｅｍｉｅｒ大阪本町駅前
-- エリア: 大阪 / なんば
-- 料金目安: 4,600円から
-- レビュー: 4.43 / 5.0
-- 空室: 候補あり
-- 理由: 空室候補として取得、レビュー高評価、温泉・大浴場系キーワードあり、駅・徒歩アクセス系キーワードあり、料金目安が比較的控えめ
-- URL: https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D151344
-
-## 5. 草津温泉　ホテルヴィレッジ
-- エリア: 群馬 / 草津温泉
-- 料金目安: 9,900円から
-- レビュー: 4.34 / 5.0
-- 空室: 候補あり
-- 理由: 空室候補として取得、レビュー高評価、温泉・大浴場系キーワードあり、料金目安が比較的控えめ
-- URL: https://hb.afl.rakuten.co.jp/hgc/4975249b.d9b572af.4975249c.aef03818/?pc=https%3A%2F%2Fimg.travel.rakuten.co.jp%2Fimage%2Ftr%2Fapi%2Fre%2FpvonD%2F%3Ff_no%3D5270
 
